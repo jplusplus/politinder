@@ -31,6 +31,7 @@ class polinder.Navigation
 		$(document).on("nextSlide", @nextSlide)
 
 	init: =>
+		@polinder = new polinder.Polinder()
 		@renderSurvey()
 		# put the first one as current slide
 		@currentSlide = @uis.slide_container.find(".slide:not(.template)").first()
@@ -52,7 +53,7 @@ class polinder.Navigation
 		]
 		for question in questions
 			# # clone the panel template
-			panel = new polinder.Question(question)
+			panel = new polinder.Question(question, @polinder)
 			nuis_to_append.push(panel.getUi())
 		# add to view
 		@uis.slide_container.append(nuis_to_append)
@@ -62,23 +63,40 @@ class polinder.Navigation
 		@currentSlide = @uis.slide_container.find(".slide:not(.template)").first()
 
 class polinder.Panel
-	@TEMPLATE : $(".panel.template")
+	
+	@TEMPLATE = $(".panel.template")
+
+	constructor: ->
+		# bind events
+		@ui.find("a.btn").on "click", @onUserChoice
+
+	onUserChoice: =>
+		$(document).trigger("nextSlide")
+
 	getUi: => return @ui
 
 class polinder.Question extends polinder.Panel
 
-	constructor: (question) ->
-		super
-		that = this
-		@surveyResponses = {}
-		@ui = polinder.Question.TEMPLATE.clone().removeClass("template").addClass("actual question")
+	constructor: (question, polinder_) ->
+		that      = this
+		@question = question
+		@polinder = polinder_
+		# create a UI element
+		@ui = polinder.Panel.TEMPLATE.clone().removeClass("template").addClass("actual question")
 		# feel the content
 		@ui.find(".question").html(question.quote)
 		@ui.find(".illustration").css("background-image", "url(static/#{question.picture})")
-		# bind events
-		@ui.find("a.btn").on "click", ->
-			# save response, associated to the question
-			that.surveyResponses[question.slug] = $(this).hasClass("yes")
-			$(document).trigger("nextSlide")
+		super
+
+	onUserChoice: (e) =>
+		# save the answer
+		@polinder.setChoice(@question.slug, $(e.currentTarget).hasClass("yes"))
+		super
+
+class polinder.Polinder
+	constructor: ->	@answers = {}
+	setChoice: (question_slug, answer) =>
+		@answers[question_slug] = answer
+		console.log @answers
 
 # EOF
