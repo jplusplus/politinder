@@ -1,5 +1,4 @@
-
-.Landing-page:
+.info-page:
 	background-color : $PRIMARY_COLOR
 	color            : white
 

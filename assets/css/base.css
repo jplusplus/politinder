@@ -8,3 +8,10 @@ html, body {
 .page-wrapper {
 	max-width: 500px;
 }
+h1, h2, h3, h4 {
+	font-family: 'Pacifico', cursive;
+	margin: 0;
+}
+.row {
+	margin: 0;
+}
