@@ -33,7 +33,7 @@ class polinder.Navigation
 	init: =>
 		@renderSurvey()
 		# put the first one as current slide
-		@currentSlide = @uis.slide_container.find(".slide").first()
+		@currentSlide = @uis.slide_container.find(".slide:not(.template)").first()
 
 	renderSurvey: =>
 		that = this
@@ -52,7 +52,6 @@ class polinder.Navigation
 		]
 		for question in questions
 			# # clone the panel template
-			# nui = @uis.panel_tmpl.clone().removeClass("template").addClass("actual question")
 			panel = new polinder.Question(question)
 			nuis_to_append.push(panel.getUi())
 		# add to view
@@ -60,7 +59,8 @@ class polinder.Navigation
 
 	nextSlide: =>
 		@currentSlide.remove()
-		@currentSlide = @uis.slide_container.find(".slide").first()
+		@currentSlide = @uis.slide_container.find(".slide:not(.template)").first()
+		console.log "nextSlide. currentSlide is now ", @currentSlide
 
 class polinder.Panel
 	@TEMPLATE : $(".panel.template")
@@ -78,6 +78,7 @@ class polinder.Question extends polinder.Panel
 		@ui.find(".illustration").css("background-image", "url(static/#{question.picture})")
 		# bind events
 		@ui.find("a.btn").on "click", ->
+			console.log $(this), question.slug
 			# save response, associated to the question
 			that.surveyResponses[question.slug] = $(this).hasClass("yes")
 			$(document).trigger("nextSlide")
