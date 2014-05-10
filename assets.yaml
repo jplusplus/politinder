@@ -1,0 +1,27 @@
+--- 
+css_all: 
+  output: gen/style.css
+  contents: 
+    - "http://fonts.googleapis.com/css?family=Cabin"
+    - "../assets/css/*.css"
+    - contents: "../assets/ccss/*.ccss"
+      filters: clevercss
+
+js_all: 
+  output: gen/scripts.js
+  contents:
+    - "../assets/js/jquery-mini.js"
+    # - "../assets/js/d3.js"
+    # - "../assets/js/queue.js"
+    - "../assets/js/underscore.js"
+    # - "../assets/js/raf.js"
+    # - "../assets/js/topojson.js"
+    - "../assets/js/bootstrap.min.js"
+    # - "../assets/js/jquery.easing.1.3.js"
+    # - "../assets/js/jquery.easing.compatibility.js"
+
+    # - "../assets/js/chroma.js"
+    # - "../assets/js/jquery.qtip.js"
+    - contents:
+      - "../assets/coffee/navigation.coffee"
+      filters: coffeescript

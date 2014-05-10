@@ -1,0 +1,14 @@
+cssselect==0.9.1
+distribute==0.6.31
+Flask-Assets==0.9
+Flask==0.10.1
+itsdangerous==0.24
+Jinja2==2.7.2
+jsmin==2.0.9
+lxml==3.3.5
+MarkupSafe==0.23
+PyYAML==3.11
+requests==2.2.1
+webassets==0.9
+Werkzeug==0.9.4
+wsgiref==0.1.2
