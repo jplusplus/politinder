@@ -21,6 +21,7 @@ class polinder.Navigation
 			question_intro         : $(".questions-intro")
 			matcher_intro          : $(".matcher-intro")
 			modal                  : $("#match-modal")
+			informations           : $(".informations")
 		# FIXME: just for debug, to be removed
 		(console.warn("NAVIGATION :: @uis.#{key} is empty") unless nui.length > 0) for key, nui of @uis
 
@@ -35,27 +36,22 @@ class polinder.Navigation
 
 	init: =>
 		@polinder = new polinder.Polinder()
+		queue()
+			.defer(d3.json, 'static/data/questions.json')
+			.defer(d3.json, 'static/data/candidates.json')
+			.await(@renderPanels)
+		# put the first one as current slide
+		@currentSlide = @uis.slide_container.find(".slide:not(.template):not(.informations)").first()
+
+	renderPanels: (a, questions, candidates) =>
+		@questions  = questions
+		@candidates = candidates
 		@renderSurvey()
 		@renderMatcher()
-		# put the first one as current slide
-		@currentSlide = @uis.slide_container.find(".slide:not(.template)").first()
 
 	renderSurvey: =>
-		that           = this
 		nuis_to_append = []
-		questions      = [
-			{
-				slug    : "guerre"
-				picture : "pics/test.jpg"
-				quote   : "J'aime pas la guerre"
-			}
-			{
-				slug    : "enfant"
-				picture : "pics/test.jpg"
-				quote   : "J'aime pas les enfants"
-			}
-		]
-		for question in questions
+		for question in @questions[0..3]
 			panel = new polinder.Question(question, @polinder)
 			nuis_to_append.push(panel.getUi())
 		# add to view
@@ -63,13 +59,7 @@ class polinder.Navigation
 
 	renderMatcher: (start=0, count=3) =>
 		nuis_to_append = []
-		candidates = [
-			{
-				name    : "Bob Dylan"
-				picture : "pics/test.jpg"
-			}
-		]
-		for candidate in candidates
+		for candidate in @candidates
 			panel = new polinder.Matcher(candidate, @polinder)
 			nuis_to_append.push(panel.getUi())
 		# add to view
@@ -80,18 +70,30 @@ class polinder.Navigation
 	nextSlide: =>
 		# remove the previous slide, show the next one
 		@currentSlide.remove()
-		@currentSlide = @uis.slide_container.find(".slide:not(.template)").first()
+		@currentSlide = @uis.slide_container.find(".slide:not(.template):not(.informations)").first()
 
 	onMatch: (e, candidate) =>
 		# show the modal view, connect the button
 		@uis.modal.find(".candidate__name").html(candidate.name)
-		@uis.modal.find(".yes").on("click", @showCandidateInfo(candidate))
 		@uis.modal.modal("show")
+		# bind modal view event
+		@uis.modal.find(".yes").on "click", =>
+			@showCandidateInfo(candidate)()
+			@uis.modal.modal("hide")
 
 	showCandidateInfo: (candidate) =>
+		that = this
 		if candidate
 			return ->
-				console.log "show info for ", candidate
+				body = ""
+				for key, value of candidate
+					body += "<dt>#{key}</dt><dd>#{value}</dd>" unless key in ["picture"]
+				that.uis.informations.find("dl").html(body)
+				that.uis.informations.removeClass("hidden")
+				# back button 
+				that.uis.informations.find("a").on "click", ->
+					that.uis.informations.addClass("hidden")
+
 
 class polinder.Panel
 	@TEMPLATE = $(".panel.template")
@@ -122,13 +124,14 @@ class polinder.Question extends polinder.Panel
 class polinder.Matcher extends polinder.Panel
 
 	constructor: (candidate, _polinder) ->
-		that      = this
-		@polinder = _polinder
+		that       = this
+		@polinder  = _polinder
 		@candidate = candidate
 		# create a UI element
 		@ui = polinder.Panel.TEMPLATE.clone().removeClass("template").addClass("actual matcher")
 		# feel the content
 		@ui.find(".name").html(candidate.quote)
+		@ui.find(".question").remove()
 		@ui.find(".illustration").css("background-image", "url(static/#{candidate.picture})")
 		super
 

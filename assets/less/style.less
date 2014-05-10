@@ -31,12 +31,46 @@ h1, h2, h3, h4 {
 	height: 100%
 }
 
-.info-page {
+.illustration {
+	background-position: center;
+	background-size: cover;
+}
+
+.slide.informations {
 	background-color: @PRIMARY_COLOR;
-	padding-top: 100px;
-	text-align: center;
-	color: #fff;
-	height: 100%;
+	text-align      : center;
+	color           : #fff;
+	height          : 100%;
+	.illustration, .informations {
+		margin-bottom: 120px;
+		margin-top   : 20px;
+	}
+	.illustration {
+		height : 80%;
+		width  : 50%;
+		float  :left;
+
+	}
+	.informations {
+		text-align: left;
+		dt {
+			font-size: 1.5em;
+		}
+	}
+	.actions {
+		position : absolute;
+		bottom   : 0;
+		left     : 0;
+		right    : 0;
+	}
+}
+
+.info-page {
+	background-color : @PRIMARY_COLOR;
+	padding-top      : 100px;
+	text-align       : center;
+	color            : #fff;
+	height           : 100%;
 	
 	h1 {
 		font-size: 60px;
