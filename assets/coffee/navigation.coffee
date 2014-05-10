@@ -19,7 +19,8 @@ class polinder.Navigation
 			info_pages             : $(".info-page")
 			slide_container        : $(".slide-container")
 			question_intro         : $(".questions-intro")
-			matcher_intro         : $(".matcher-intro")
+			matcher_intro          : $(".matcher-intro")
+			modal                  : $("#match-modal")
 		# FIXME: just for debug, to be removed
 		(console.warn("NAVIGATION :: @uis.#{key} is empty") unless nui.length > 0) for key, nui of @uis
 
@@ -30,6 +31,7 @@ class polinder.Navigation
 		# bind events
 		@uis.info_pages.find("a.btn").on("click", @nextSlide)
 		$(document).on("nextSlide", @nextSlide)
+		$(document).on("onMatch"  , @onMatch)
 
 	init: =>
 		@polinder = new polinder.Polinder()
@@ -73,9 +75,23 @@ class polinder.Navigation
 		# add to view
 		@uis.matcher_intro.after(nuis_to_append)
 
+	# -----------------------------------------------------------------------------
+	# EVENTS HANDLER
 	nextSlide: =>
+		# remove the previous slide, show the next one
 		@currentSlide.remove()
 		@currentSlide = @uis.slide_container.find(".slide:not(.template)").first()
+
+	onMatch: (e, candidate) =>
+		# show the modal view, connect the button
+		@uis.modal.find(".candidate__name").html(candidate.name)
+		@uis.modal.find(".yes").on("click", @showCandidateInfo(candidate))
+		@uis.modal.modal("show")
+
+	showCandidateInfo: (candidate) =>
+		if candidate
+			return ->
+				console.log "show info for ", candidate
 
 class polinder.Panel
 	@TEMPLATE = $(".panel.template")
@@ -119,7 +135,7 @@ class polinder.Matcher extends polinder.Panel
 	onUserChoice: (e) =>
 		# save the answer
 		if @polinder.isMatching(@candidate)
-			$("#match-modal").modal("show")
+			$(document).trigger("onMatch", [@candidate])
 		super
 
 class polinder.Polinder
