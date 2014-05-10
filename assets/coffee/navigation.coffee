@@ -16,8 +16,8 @@ class polinder.Navigation
 
 	constructor: ->
 		@uis =
-			landing_page           : $(".Landing-page")
-			landing_page_start_btn : $(".Landing-page a.btn")
+			landing_page           : $(".info-page")
+			landing_page_start_btn : $(".info-page a.btn")
 			panel_tmpl             : $(".Panel.template")
 			panel_container        : $(".panel-container")
 

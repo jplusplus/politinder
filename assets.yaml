@@ -6,8 +6,10 @@ css_all:
     - "../assets/css/base.css"
     - "../assets/css/info-page.css"
     - "../assets/css/panel.css"
-    - contents: "../assets/ccss/*.ccss"
-      filters: clevercss
+    # - contents: "../assets/ccss/*.ccss"
+    #   filters: clevercss
+    - contents: "../assets/less/*.less"
+      filters: less
 
 js_all: 
   output: gen/scripts.js
