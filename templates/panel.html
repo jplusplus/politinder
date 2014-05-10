@@ -1,21 +1,24 @@
-<div class="Panel template">
-	<div class="wrapper">
+
+<div class="Panel template wrapper page-wrapper" style="background-image: url('{{ url_for("static", filename="pics/test.jpg") }}');">
 		<div class="title">POLITINDER</div>
 
-		<div class="illustration" style="background-image: '{{ url_for("static", filename="pics/test.jpg") }}';">
+		<div class="illustration">
 		</div>
 
-		<div class="question">
-			Would you date Random Guy?
-		</div>
 
-		<div class="actions row footer">
-			<a class="btn btn-lg btn-danger col-xs-6" href="#">
-				<span class="glyphicon glyphicon-remove"></span> NO 
-			</a>
-			<a class="btn btn-lg btn-success col-xs-6" href="#">
-				<span class="glyphicon glyphicon-ok"></span> YES 
-			</a>
-		</div>
+		
 	</div>
+
+</div>
+<div class="actions row footer page-wrapper">
+	<div class="question">
+		Would you date Random Guy?
+	</div>
+
+	<a class="btn btn-lg btn-danger col-xs-6" href="#">
+		<span class="glyphicon glyphicon-remove"></span> NO 
+	</a>
+	<a class="btn btn-lg btn-success col-xs-6" href="#">
+		<span class="glyphicon glyphicon-ok"></span> YES 
+	</a>
 </div>
