@@ -16,79 +16,84 @@ html, body {
 .template {
 	display: none;
 }
-.container-fluid, .main-wrapper, .panel-container, .Panel, .wrapper, .Landing-page{
+.container-fluid, .main-wrapper, .slide-container, .slide, .Landing-page{
 	height  : 100%;
 }
-.container-fluid {
-	padding : 0;
-}
+.container-fluid {padding : 0;}
+
 h1, h2, h3, h4 {
 	font-family: 'Pacifico', cursive;
 	margin: 0;
 	color: @HEADING_COLOR;
 }
-.slide-container, .slide {
-	height: 100%
-}
 
-.illustration {
-	background-position: center;
-	background-size: cover;
-}
 
-.slide.informations {
-	background-color: @PRIMARY_COLOR;
-	text-align      : center;
-	color           : #fff;
-	height          : 100%;
-	.illustration, .informations {
-		margin-bottom: 120px;
-		margin-top   : 20px;
-	}
+.slide {
 	.illustration {
-		height : 80%;
-		width  : 50%;
-		float  :left;
-
+		background-position: center;
+		background-size: cover;
 	}
-	.informations {
-		text-align: left;
-		dt {
-			font-size: 1.5em;
+	&.informations {
+		background-color: @PRIMARY_COLOR;
+		text-align      : center;
+		color           : #fff;
+		&, .wrapper {
+			height: 100%;
+			padding-bottom: 60px
 		}
-	}
-	.actions {
-		position : absolute;
-		bottom   : 0;
-		left     : 0;
-		right    : 0;
+		.illustration, .informations {
+			margin-top   : 20px;
+		}
+		.illustration {
+			height : 100%;
+		}
+		.informations {
+			text-align: left;
+			dt {
+				font-size: 1.5em;
+			}
+		}
+		.actions {
+			position : absolute;
+			bottom   : 0;
+			left     : 0;
+			right    : 0;
+		}
 	}
 }
 
 .info-page {
 	background-color : @PRIMARY_COLOR;
-	padding-top      : 100px;
 	text-align       : center;
 	color            : #fff;
 	height           : 100%;
-	
-	h1 {
-		font-size: 60px;
-		margin-bottom: 30px;
-	}
-	h2 {
-		margin-bottom: 20px;
-		font-size: 3em;
-	}
+	> .wrapper {
+		top: 50%;
+		position: relative;
+		transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		h1 {
+			font-size: 60px;
+			margin-bottom: 30px;
+		}
+		h2 {
+			margin-bottom: 20px;
+			font-size: 3em;
+		}
 
-	.headline {
-		font-size: 24px;
-		margin-bottom: 15px;
-		padding: 0 20%;
+		.headline {
+			font-size: 24px;
+			margin-bottom: 15px;
+			padding: 0 20%;
+		}
+		.btn {
+			font-size: 1.3em;
+		}
+		
 	}
-	.btn {
-		font-size: 1.3em;
-	}
+	
 }
 
 
@@ -97,6 +102,7 @@ h1, h2, h3, h4 {
 		background-color : @PANEL_COLOR;
 		padding-bottom   : @PANEL_HEIGHT_ACTIONS;
 		position         : relative;
+		height           : 100%;
 
 		.title {
 			text-align : center;
@@ -118,9 +124,6 @@ h1, h2, h3, h4 {
 			left       : 0;
 			bottom     : @PANEL_HEIGHT_ACTIONS;
 			text-align : center;
-			background-size: cover;
-			background-position: center;
-			
 			img {
 				max-height : 100%;
 				max-width  : 100%;
