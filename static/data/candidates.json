@@ -2,13 +2,6 @@
 	{
 		"name"    : "Bob Dylan",
 		"picture" : "pics/test.jpg"
-	},
-	{
-		"name"    : "Pouet",
-		"picture" : "pics/test.jpg"
-	},
-	{
-		"name"    : "Poulet",
-		"picture" : "pics/test.jpg"
+
 	}
 ]

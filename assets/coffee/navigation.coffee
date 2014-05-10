@@ -51,7 +51,7 @@ class polinder.Navigation
 
 	renderSurvey: =>
 		nuis_to_append = []
-		for question in @questions[0..3]
+		for question in @questions
 			panel = new polinder.Question(question, @polinder)
 			nuis_to_append.push(panel.getUi())
 		# add to view
