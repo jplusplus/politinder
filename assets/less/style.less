@@ -1,0 +1,87 @@
+@PRIMARY_COLOR: #F05A34;
+@BACKGROUND_COLOR: #DFDFDF;
+@PADDING: 20px;
+@PANEL_HEIGHT_TITLE: 60px;
+@PANEL_HEIGHT_ACTIONS: 45px;
+
+html, body {
+	height   : 100%;
+	width    : 100%;
+	overflow : hidden;
+	margin: 0;
+}
+.template {
+	display: none;
+}
+.container-fluid, .main-wrapper, .panel-container, .Panel, .wrapper, .Landing-page{
+	height  : 100%;
+}
+.container-fluid {
+	padding : 0;
+}
+h1, h2, h3, h4 {
+	font-family: 'Pacifico', cursive;
+	margin: 0;
+}
+.slide-container {
+	height: 100%
+}
+
+.info-page {
+	background-color: @PRIMARY_COLOR;
+	padding-top: 100px;
+	text-align: center;
+	color: #fff;
+	height: 100%;
+	
+	h1 {
+		color: #fff;
+		font-size: 60px;
+		margin-bottom: 30px;
+	}
+
+	.headline {
+		font-size: 24px;
+		margin-bottom: 15px;
+		padding: 0 20%;
+	}
+}
+
+
+.Panel {
+	.wrapper {
+		background-color : @BACKGROUND_COLOR;
+		padding-bottom   : @PANEL_HEIGHT_ACTIONS;
+		position         : relative;
+
+		.title {
+			text-align : center;
+			font-size  : 3em;
+			color      : @PRIMARY_COLOR;
+		}
+		.illustration {
+			position   : absolute;
+			top        : @PANEL_HEIGHT_TITLE;
+			right      : 0;
+			left       : 0;
+			bottom     : @PANEL_HEIGHT_ACTIONS;
+			text-align : center;
+			
+			img {
+				max-height : 100%;
+				max-width  : 100%;
+			}
+		}
+		.actions {
+			position   : absolute;
+			bottom     : 0;
+			left       : 0;
+			right      : 0;
+			text-align : center;				
+		}
+
+	}
+}
+
+
+// EOF

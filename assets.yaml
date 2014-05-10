@@ -3,9 +3,9 @@ css_all:
   output: gen/style.css
   contents: 
     - "../assets/css/bootstrap.lumen.min.css"
-    - "../assets/css/base.css"
-    - "../assets/css/info-page.css"
-    - "../assets/css/panel.css"
+    #- "../assets/css/base.css"
+    #- "../assets/css/info-page.css"
+    #- "../assets/css/panel.css"
     # - contents: "../assets/ccss/*.ccss"
     #   filters: clevercss
     - contents: "../assets/less/*.less"
