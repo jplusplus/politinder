@@ -5,7 +5,6 @@ Flask==0.10.1
 itsdangerous==0.24
 Jinja2==2.7.2
 jsmin==2.0.9
-lxml==3.3.5
 MarkupSafe==0.23
 PyYAML==3.11
 requests==2.2.1
