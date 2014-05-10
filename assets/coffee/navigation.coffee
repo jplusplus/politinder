@@ -20,6 +20,7 @@ class polinder.Navigation
 			slide_container        : $(".slide-container")
 			question_intro         : $(".questions-intro")
 			matcher_intro          : $(".matcher-intro")
+			game_over              : $(".game-over")
 			modal                  : $("#match-modal")
 			informations           : $(".informations")
 		# FIXME: just for debug, to be removed
@@ -44,8 +45,8 @@ class polinder.Navigation
 		@currentSlide = @uis.slide_container.find(".slide:not(.template):not(.informations)").first()
 
 	renderPanels: (a, questions, candidates) =>
-		@questions  = questions
-		@candidates = candidates
+		@questions  = questions[...3]
+		@candidates = _.shuffle(candidates)
 		@renderSurvey()
 		@renderMatcher()
 
@@ -57,17 +58,23 @@ class polinder.Navigation
 		# add to view
 		@uis.question_intro.after(nuis_to_append)
 
-	renderMatcher: (start=0, count=3) =>
+	renderMatcher: (count=3) =>
 		nuis_to_append = []
-		for candidate in @candidates
+		i = 0
+		while @candidates.length > 0 and i < count
+		# for candidate in @candidates[0...count]
+			candidate = @candidates.pop()
 			panel = new polinder.Matcher(candidate, @polinder)
 			nuis_to_append.push(panel.getUi())
+			i += 1
 		# add to view
-		@uis.matcher_intro.after(nuis_to_append)
+		@uis.game_over.before(nuis_to_append)
 
 	# -----------------------------------------------------------------------------
 	# EVENTS HANDLER
 	nextSlide: =>
+		# laod a new slide if in tinder mode
+		@renderMatcher(1) if @currentSlide.hasClass("matcher")	
 		# remove the previous slide, show the next one
 		@currentSlide.remove()
 		@currentSlide = @uis.slide_container.find(".slide:not(.template):not(.informations)").first()
@@ -86,9 +93,15 @@ class polinder.Navigation
 		if candidate
 			return ->
 				body = ""
-				for key, value of candidate
-					body += "<dt>#{key}</dt><dd>#{value}</dd>" unless key in ["picture"]
+				fields = 
+					name : "name"
+					country : "country"
+					region : "region"
+					party : "party"
+				for key, value of fields
+					body += "<dt>#{value}</dt><dd>#{candidate[key]}</dd>" if candidate[key]? and candidate[key] != ""
 				that.uis.informations.find("dl").html(body)
+				that.uis.informations.find(".illustration").css("background-image", "url(static/#{candidate.picture})")
 				that.uis.informations.removeClass("hidden")
 				# back button 
 				that.uis.informations.find("a").on "click", ->
@@ -102,6 +115,8 @@ class polinder.Panel
 		@ui.find("a.btn").on "click", @onUserChoice
 	onUserChoice: => $(document).trigger("nextSlide")
 	getUi       : => return @ui
+	hide        : =>
+		@ui.css("top")
 
 class polinder.Question extends polinder.Panel
 
@@ -148,7 +163,12 @@ class polinder.Polinder
 	setChoice: (question_slug, answer) =>
 		@answers[question_slug] = answer
 
-	isMatching: =>
-		return true
+	isMatching: (candidate) =>
+		score = 0
+		for key, value of @answers
+			if candidate.answers[key]? and candidate.answers[key] == value
+				score += 1
+		base = Math.min(_.size(candidate.answers), _.size(@answers))
+		return score/base > .8
 
 # EOF
