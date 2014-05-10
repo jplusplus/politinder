@@ -1,5 +1,5 @@
 
-.landing-page:
+.info-page:
 	background-color : $PRIMARY_COLOR
 	height           :100%
 	color            : white

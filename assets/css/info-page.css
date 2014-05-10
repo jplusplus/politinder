@@ -1,0 +1,21 @@
+.info-page {
+	padding-top: 100px;
+	text-align: center;
+	color: #fff;
+}
+
+.info-page h1 {
+	color: #fff;
+	font-size: 60px;
+	margin-bottom: 30px;
+}
+.info-page .headline {
+	font-size: 24px;
+	margin-bottom: 15px;
+	padding: 0 20%;
+}
+
+/* START */
+.info-page .start {
+
+}

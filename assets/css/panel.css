@@ -17,7 +17,14 @@
 }
 .question {
 	text-align: center;
+	font-size: 23px;
+	padding: 15px;
+}
+.actions .btn {
 	font-size: 20px;
+}
+.actions .btn .glyphicon {
+	margin-right: 6px;
 }
 
 .footer, .wrapper:after {
@@ -25,5 +32,5 @@
   	height: 100px; 
 }
 .footer {
-	background-color: orange;	
+	background-color: white;	
 }
