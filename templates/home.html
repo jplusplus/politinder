@@ -1,8 +1,20 @@
 {% extends 'base.html' %}
 
 {% block content %}
-	<div class="container">
-		<div class="row">
+	<div class="container-fluid">
+		<div class="Panel template">
+			<div class="wrapper">
+				<div class="title">POLITINDER</div>
+
+				<div class="illustration">
+					<img src="{{ url_for("static", filename="pics/test.jpg") }}">
+				</div>
+
+				<div class="actions">
+					<a class="btn btn-lg" href="#">NO</a>
+					<a class="btn btn-lg" href="#">YES</a>
+				</div>
+			</div>
 		</div>
 	</div>
 {% endblock %}
