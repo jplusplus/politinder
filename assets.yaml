@@ -3,9 +3,7 @@ css_all:
   output: gen/style.css
   contents: 
     - "../assets/css/*.css"
-    # - contents: "../assets/ccss/*.ccss"
-    - contents: "../assets/ccss/style.ccss"
-    - contents: "../assets/ccss/landing_page.ccss"
+    - contents: "../assets/ccss/*.ccss"
       filters: clevercss
 
 js_all: 
