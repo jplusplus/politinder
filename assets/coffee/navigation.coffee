@@ -60,7 +60,6 @@ class polinder.Navigation
 	nextSlide: =>
 		@currentSlide.remove()
 		@currentSlide = @uis.slide_container.find(".slide:not(.template)").first()
-		console.log "nextSlide. currentSlide is now ", @currentSlide
 
 class polinder.Panel
 	@TEMPLATE : $(".panel.template")
@@ -78,7 +77,6 @@ class polinder.Question extends polinder.Panel
 		@ui.find(".illustration").css("background-image", "url(static/#{question.picture})")
 		# bind events
 		@ui.find("a.btn").on "click", ->
-			console.log $(this), question.slug
 			# save response, associated to the question
 			that.surveyResponses[question.slug] = $(this).hasClass("yes")
 			$(document).trigger("nextSlide")
