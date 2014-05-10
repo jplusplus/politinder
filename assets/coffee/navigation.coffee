@@ -96,7 +96,7 @@ class polinder.Navigation
 
 
 class polinder.Panel
-	@TEMPLATE = $(".panel.template")
+	@TEMPLATE = $(".Panel.template")
 	constructor: ->
 		# bind events
 		@ui.find("a.btn").on "click", @onUserChoice
