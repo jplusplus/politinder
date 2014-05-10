@@ -4,6 +4,8 @@
 @PANEL_HEIGHT_TITLE: 60px;
 @PANEL_BORDER: 4px;
 @PANEL_HEIGHT_ACTIONS: 45px;
+@HEADING_COLOR: #fff;
+@TEXT_COLOR: #555555;
 
 html, body {
 	height   : 100%;
@@ -23,6 +25,7 @@ html, body {
 h1, h2, h3, h4 {
 	font-family: 'Pacifico', cursive;
 	margin: 0;
+	color: @HEADING_COLOR;
 }
 .slide-container, .slide {
 	height: 100%
@@ -36,9 +39,12 @@ h1, h2, h3, h4 {
 	height: 100%;
 	
 	h1 {
-		color: #fff;
 		font-size: 60px;
 		margin-bottom: 30px;
+	}
+	h2 {
+		margin-bottom: 20px;
+		font-size: 3em;
 	}
 
 	.headline {
@@ -117,7 +123,11 @@ h1, h2, h3, h4 {
 		border: 0;
 		.modal-title {
 			text-align: center;
-		}	
+			color: @TEXT_COLOR;
+		}
+		.close {
+			display: none;
+		}
 	}	
 	.modal-body {
 		font-size: 1.5em;
