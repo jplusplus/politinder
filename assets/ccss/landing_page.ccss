@@ -1,3 +1,5 @@
+PRIMARY_COLOR        = #F05A34
+PADDING              = 20px
 
 .landing-page:
 	background-color : $PRIMARY_COLOR
@@ -21,6 +23,3 @@
 			left: 0
 			right: 0
 			text-align: center
-
-
-// EOF
