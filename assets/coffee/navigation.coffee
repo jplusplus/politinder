@@ -18,7 +18,8 @@ class polinder.Navigation
 		@uis =
 			info_pages             : $(".info-page")
 			slide_container        : $(".slide-container")
-
+			question_intro         : $(".questions-intro")
+			matcher_intro         : $(".matcher-intro")
 		# FIXME: just for debug, to be removed
 		(console.warn("NAVIGATION :: @uis.#{key} is empty") unless nui.length > 0) for key, nui of @uis
 
@@ -33,13 +34,14 @@ class polinder.Navigation
 	init: =>
 		@polinder = new polinder.Polinder()
 		@renderSurvey()
+		@renderMatcher()
 		# put the first one as current slide
 		@currentSlide = @uis.slide_container.find(".slide:not(.template)").first()
 
 	renderSurvey: =>
-		that = this
+		that           = this
 		nuis_to_append = []
-		questions = [
+		questions      = [
 			{
 				slug    : "guerre"
 				picture : "pics/test.jpg"
@@ -52,28 +54,36 @@ class polinder.Navigation
 			}
 		]
 		for question in questions
-			# # clone the panel template
 			panel = new polinder.Question(question, @polinder)
 			nuis_to_append.push(panel.getUi())
 		# add to view
-		@uis.slide_container.append(nuis_to_append)
+		@uis.question_intro.after(nuis_to_append)
+
+	renderMatcher: (start=0, count=3) =>
+		nuis_to_append = []
+		candidates = [
+			{
+				name    : "Bob Dylan"
+				picture : "pics/test.jpg"
+			}
+		]
+		for candidate in candidates
+			panel = new polinder.Matcher(candidate, @polinder)
+			nuis_to_append.push(panel.getUi())
+		# add to view
+		@uis.matcher_intro.after(nuis_to_append)
 
 	nextSlide: =>
 		@currentSlide.remove()
 		@currentSlide = @uis.slide_container.find(".slide:not(.template)").first()
 
 class polinder.Panel
-	
 	@TEMPLATE = $(".panel.template")
-
 	constructor: ->
 		# bind events
 		@ui.find("a.btn").on "click", @onUserChoice
-
-	onUserChoice: =>
-		$(document).trigger("nextSlide")
-
-	getUi: => return @ui
+	onUserChoice: => $(document).trigger("nextSlide")
+	getUi       : => return @ui
 
 class polinder.Question extends polinder.Panel
 
@@ -93,10 +103,33 @@ class polinder.Question extends polinder.Panel
 		@polinder.setChoice(@question.slug, $(e.currentTarget).hasClass("yes"))
 		super
 
+class polinder.Matcher extends polinder.Panel
+
+	constructor: (candidate, _polinder) ->
+		that      = this
+		@polinder = _polinder
+		@candidate = candidate
+		# create a UI element
+		@ui = polinder.Panel.TEMPLATE.clone().removeClass("template").addClass("actual matcher")
+		# feel the content
+		@ui.find(".name").html(candidate.quote)
+		@ui.find(".illustration").css("background-image", "url(static/#{candidate.picture})")
+		super
+
+	onUserChoice: (e) =>
+		# save the answer
+		if @polinder.isMatching(@candidate)
+			$("#match-modal").modal("show")
+		super
+
 class polinder.Polinder
-	constructor: ->	@answers = {}
+	constructor: ->
+		@answers = {}
+	
 	setChoice: (question_slug, answer) =>
 		@answers[question_slug] = answer
-		console.log @answers
+
+	isMatching: =>
+		return true
 
 # EOF

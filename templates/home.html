@@ -1,12 +1,29 @@
 {% extends 'base.html' %}
 
 {% block content %}
+	
+	<div class="modal" id="match-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h1 class="modal-title" id="myModalLabel">It's a match!</h1>
+		  </div>
+		  <div class="modal-body">
+			[CANDIDATE NAME] share most of your opinions.
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-danger" data-dismiss="modal">Still not interested</button>
+			<button type="button" class="btn btn-success">Tell me more</button>
+		  </div>
+		</div>
+		</div>
+	</div>
 			<div class="slide-container">
+				{% include 'panel.html' %} <!-- panel template -->
 				{% include 'start.html' %}
 				{% include 'questions-intro.html' %}
-				{% include 'panel.html' %} <!-- questions -->
-				{# include 'finddating-intro.html' #}
-				{# include 'panel.html'#} <!-- finddating -->
+				{% include 'matcher-intro.html' %}
 			</div>
 		</div>
 	</div>
