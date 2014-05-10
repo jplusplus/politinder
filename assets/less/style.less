@@ -24,7 +24,7 @@ h1, h2, h3, h4 {
 	font-family: 'Pacifico', cursive;
 	margin: 0;
 }
-.slide-container {
+.slide-container, .slide {
 	height: 100%
 }
 
@@ -49,7 +49,7 @@ h1, h2, h3, h4 {
 }
 
 
-.Panel {
+.panel {
 	.wrapper {
 		background-color : @PANEL_COLOR;
 		padding-bottom   : @PANEL_HEIGHT_ACTIONS;
@@ -90,6 +90,8 @@ h1, h2, h3, h4 {
 			text-align : center;
 			background-color: @PANEL_COLOR;
 			color: #fff;	
+			border-top: @PANEL_BORDER solid darken(@PANEL_COLOR, 10%);
+
 
 			.question {
 				font-size: 1.5em;
