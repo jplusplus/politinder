@@ -62,8 +62,6 @@ class polinder.Navigation
 		for candidate in @candidates
 			panel = new polinder.Matcher(candidate, @polinder)
 			nuis_to_append.push(panel.getUi())
-		# DEBUG
-		@showCandidateInfo(candidate)()
 		# add to view
 		@uis.matcher_intro.after(nuis_to_append)
 
