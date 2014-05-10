@@ -1,0 +1,26 @@
+
+.landing-page:
+	background-color : $PRIMARY_COLOR
+	height           :100%
+	color            : white
+
+	> .wrapper:
+		border      : 1px solid black
+		height      : 100%
+		text-align  : center
+		> .title:
+			margin-top: 10%
+			font-size   : 4em
+			font-weight : bold
+		> .headline :
+			font-size   : 2em
+
+		> .actions:
+			position: absolute
+			bottom: $PADDING*2
+			left: 0
+			right: 0
+			text-align: center
+
+
+// EOF
