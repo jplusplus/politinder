@@ -45,7 +45,7 @@ class polinder.Navigation
 		@currentSlide = @uis.slide_container.find(".slide:not(.template):not(.informations)").last()
 
 	renderPanels: (a, questions, candidates) =>
-		@questions  = questions[...3]
+		@questions  = questions
 		@candidates = _.shuffle(candidates)
 		@renderSurvey()
 		@renderMatcher()
