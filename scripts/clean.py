@@ -25,32 +25,30 @@
 #     You should have received a copy of the GNU General Public License
 #     along with Polinder.  If not, see <http://www.gnu.org/licenses/>.
 
-import requests
-from lxml import html
-from pprint import pprint as pp
+import json
+import csv
 
-PAGES = [
-	"https://politicsforpeople.eu/france/",
-	"https://politicsforpeople.eu/sweden/"
-]
+	
+parties = json.load(open("parties.json"))
+candidats = json.load(open("dump.json"))
+candidats = filter(lambda _: "picture" in _, candidats)
+questions = open("matches.csv", "rb")
+questions = list(csv.DictReader(questions))
 
-for page in PAGES:
-	r        = requests.get(page)
-	document = html.fromstring(r.content)
-	lines    = document.cssselect('.ginput_container li')
-	for line in lines:
-		entry = {
-			"links" : {},
-			"name"  : line.find("label").text           if line.find("label") != None else "",
-			"party" : line.find_class("party")[0].text  if line.find_class("party")   else "",
-			"region": line.find_class("region")[0].text if line.find_class("region")  else "",
-		}
-		for link in line.findall("a"):
-			link = link.attrib["href"]
-			if "twitter"    in link: entry["links"]["twitter"]  = link
-			elif "facebook" in link: entry["links"]["facebook"] = link
-		if "twitter" in entry["links"] or "facebook" in entry["links"]:
-			pass
-		pp(entry)
+def get_match(name):
+	for key, value in parties.items():
+		if key.lower() in name.lower():
+			return value
 
-# EOF
+results = []
+for c in candidats:
+	eu_party = get_match(c['party'])
+	if eu_party:
+		c["eu_party"] = eu_party
+		c["answers"] = {}
+		for r in questions:
+			if r[c["eu_party"]] != "":
+				c["answers"][r["slug"]] = r[c["eu_party"]] == "true"
+		results.append(c)
+
+print json.dumps(results)
