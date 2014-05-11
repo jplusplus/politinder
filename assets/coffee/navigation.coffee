@@ -103,6 +103,7 @@ class polinder.Navigation
 	onMatch: (e, candidate) =>
 		# show the modal view, connect the button
 		@uis.modal.find(".candidate__name").html(candidate.name)
+		@uis.modal.find(".candidate__illustration").css("background-image", "url(static/#{candidate.picture})")
 		@uis.modal.modal("show")
 		# bind modal view event
 		@uis.modal.find(".yes").on "click", =>
