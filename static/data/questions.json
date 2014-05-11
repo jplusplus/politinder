@@ -1,0 +1,52 @@
+[
+  {
+  	"slug"    : "tax",
+  	"picture" : "pics/tsipras.jpg",
+  	"quote"   : "Banks should pay a small tax on all their transactions!"
+  },
+  {
+  	"slug"    : "army",
+  	"picture" : "pics/brok.jpg",
+  	"quote"   : "We should have an EU military!"
+  },
+  {
+    "slug"    : "co2",
+    "picture" : "pics/bove.jpg",
+    "quote"   : "We need to make CO2 pollutors pay more!"
+  },
+  {
+    "slug"    : "asylum",
+    "picture" : "pics/guillaume.jpg",
+    "quote"   : "We should protect more asylum seekers!"
+  },
+  {
+    "slug"    : "minimum",
+    "picture" : "pics/schulz.jpg",
+    "quote"   : "Everybody in the EU should get the same minimum salary!"
+  },
+  {
+    "slug"    : "data",
+    "picture" : "pics/keller.jpg",
+    "quote"   : "Telecom providers should not be allowed to track my data and store it!"
+  },
+  {
+    "slug"    : "eurobonds",
+    "picture" : "pics/juncker.jpg",
+    "quote"   : "It's unthinkable that European countries borrow money together!"
+  },
+  {
+    "slug"    : "trains",
+    "picture" : "pics/verhofstadt.jpg",
+    "quote"   : "We should built railways rather than invest in highways!"
+  },
+  {
+    "slug"    : "aid",
+    "picture" : "pics/swoboda.jpg",
+    "quote"   : "We should continue to help the poorest countries!"
+  },
+  {
+    "slug"    : "abortion",
+    "picture" : "pics/intveld.jpg",
+    "quote"   : "We need to guarantee the right to abortion!"
+  }
+]

@@ -1,0 +1,11 @@
+slug,European People's Party,Progressive Alliance of Socialists and Democrats,Alliance of Liberals and Democrats for Europe,The Greens/European Free Alliance,European Conservatives and Reformists,European United Left/Nordic Green Left,Europe of Freedom and Democracy
+tax,true,true,false,true,false,true,false
+army,true,true,true,false,,,
+co2,false,true,true,true,false,false,false
+asylum,false,true,true,true,,true,
+minimum,false,true,false,true,,true,
+data,false,false,true,true,,true,
+eurobonds,true,true,false,false,true,,true
+trains,false,true,true,true,,,
+aid,true,true,true,true,,true,
+abortion,false,true,true,true,false,true,false

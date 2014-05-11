@@ -15,8 +15,8 @@ js_all:
   output: gen/scripts.js
   contents:
     - "../assets/js/jquery-mini.js"
-    # - "../assets/js/d3.js"
-    # - "../assets/js/queue.js"
+    - "../assets/js/d3.js"
+    - "../assets/js/queue.js"
     - "../assets/js/underscore.js"
     # - "../assets/js/raf.js"
     # - "../assets/js/topojson.js"

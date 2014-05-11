@@ -16,108 +16,153 @@ html, body {
 .template {
 	display: none;
 }
-.container-fluid, .main-wrapper, .panel-container, .Panel, .wrapper, .Landing-page{
+.container-fluid, .main-wrapper, .slide-container, .slide, .Landing-page{
 	height  : 100%;
 }
-.container-fluid {
-	padding : 0;
-}
+.container-fluid {padding : 0;}
+
 h1, h2, h3, h4 {
 	font-family: 'Pacifico', cursive;
 	margin: 0;
 	color: @HEADING_COLOR;
 }
-.slide-container, .slide {
-	height: 100%
-}
 
-.info-page {
-	background-color: @PRIMARY_COLOR;
-	padding-top: 100px;
-	text-align: center;
-	color: #fff;
-	height: 100%;
-	
-	h1 {
-		font-size: 60px;
-		margin-bottom: 30px;
+.slide {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	.illustration {
+		background-position: center;
+		background-size: cover;
 	}
-	h2 {
-		margin-bottom: 20px;
-		font-size: 3em;
-	}
-
-	.headline {
-		font-size: 24px;
-		margin-bottom: 15px;
-		padding: 0 20%;
-	}
-	.btn {
-		font-size: 1.3em;
-	}
-}
-
-
-.panel {
-	.wrapper {
-		background-color : @PANEL_COLOR;
-		padding-bottom   : @PANEL_HEIGHT_ACTIONS;
-		position         : relative;
-
-		.title {
-			text-align : center;
-			font-size  : 3em;
-			color      : @PRIMARY_COLOR;
-			text-align: center;
-			padding: 10px;
-			border-bottom: @PANEL_BORDER solid darken(@PANEL_COLOR, 10%);
-
-			h1 {
-				color: #FFF;
-			}
-
+	&.informations {
+		background-color: @PRIMARY_COLOR;
+		text-align      : center;
+		color           : #fff;
+		&, .wrapper {
+			height: 100%;
+			padding-bottom: 60px
+		}
+		.illustration, .informations {
+			margin-top   : 20px;
 		}
 		.illustration {
-			position   : absolute;
-			top        : @PANEL_HEIGHT_TITLE + @PANEL_BORDER - 1;
-			right      : 0;
-			left       : 0;
-			bottom     : @PANEL_HEIGHT_ACTIONS;
-			text-align : center;
-			background-size: 100%;
-			
-			img {
-				max-height : 100%;
-				max-width  : 100%;
+			height : 100%;
+		}
+		.informations {
+			text-align: left;
+			dt {
+				font-size: 1.5em;
 			}
 		}
 		.actions {
-			position   : absolute;
-			bottom     : 0;
-			left       : 0;
-			right      : 0;
-			text-align : center;
-			background-color: @PANEL_COLOR;
-			color: #fff;	
-			border-top: @PANEL_BORDER solid darken(@PANEL_COLOR, 10%);
+			position : absolute;
+			bottom   : 0;
+			left     : 0;
+			right    : 0;
+		}
+	}
 
-
-			.question {
-				font-size: 1.5em;
-				padding: 15px;
+	&.info-page {
+		background-color : @PRIMARY_COLOR;
+		text-align       : center;
+		color            : #fff;
+		height           : 100%;
+		> .wrapper {
+			position: relative;
+			// center
+			top: 50%;
+			transform: translateY(-50%);
+			-webkit-transform: translateY(-50%);
+			-moz-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+			h1 {
+				font-size: 60px;
+				margin-bottom: 30px;
+			}
+			h2 {
+				margin-bottom: 20px;
+				font-size: 3em;
+			}
+			.headline {
+				font-size: 24px;
+				margin-bottom: 15px;
+				padding: 0 20%;
 			}
 			.btn {
-				font-size: 1.5em;
-				
-				.glyphicon {
-					margin-right: 10px;
+				font-size: 1.3em;
+			}	
+		}	
+	}
+	&.Panel {
+		&.disapear {
+			-webkit-animation: rotateOutDownLeft .35s linear;
+		}
+		&.disapear--right  {
+			-webkit-animation: rotateOutDownRight .35s linear;
+		}
+		.wrapper {
+			background-color : @PANEL_COLOR;
+			padding-bottom   : @PANEL_HEIGHT_ACTIONS;
+			position         : relative;
+			height           : 100%;
+			.title {
+				text-align : center;
+				font-size  : 3em;
+				color      : @PRIMARY_COLOR;
+				text-align: center;
+				padding: 10px;
+				border-bottom: @PANEL_BORDER solid darken(@PANEL_COLOR, 10%);
+				h1 {
+					color: #FFF;
 				}
+
+			}
+			.illustration {
+				position   : absolute;
+				top        : @PANEL_HEIGHT_TITLE + @PANEL_BORDER - 1;
+				right      : 0;
+				left       : 0;
+				bottom     : @PANEL_HEIGHT_ACTIONS;
+				text-align : center;
+				img {
+					max-height : 100%;
+					max-width  : 100%;
+				}
+			}
+			.actions {
+				position   : absolute;
+				bottom     : 0;
+				left       : 0;
+				right      : 0;
+				text-align : center;
+				background-color: @PANEL_COLOR;
+				color: #fff;	
+				border-top: @PANEL_BORDER solid darken(@PANEL_COLOR, 10%);
+
+
+				.question {
+					font-size: 1.5em;
+					padding: 15px;
+				}
+				.btn {
+					font-size: 1.5em;
+					
+					.glyphicon {
+						margin-right: 10px;
+					}
+				}
+
 			}
 
 		}
-
 	}
 }
+
+
+
 .modal {
 	.modal-header {
 		border: 0;
@@ -135,6 +180,35 @@ h1, h2, h3, h4 {
 	.modal-footer {
 		border: 0;
 	}
+}
+
+
+@-webkit-keyframes rotateOutDownLeft {
+  0% {
+    -webkit-transform-origin: left bottom;
+    -webkit-transform: rotate(0deg);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform-origin: left bottom;
+    -webkit-transform: rotate(-90deg);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes rotateOutDownRight {
+  0% {
+    -webkit-transform-origin: right bottom;
+    -webkit-transform: rotate(0deg);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform-origin: right bottom;
+    -webkit-transform: rotate(90deg);
+    opacity: 0;
+  }
 }
 
 // EOF
