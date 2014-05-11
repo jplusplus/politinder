@@ -22,12 +22,12 @@
   {
     "slug"    : "minimum",
     "picture" : "pics/schulz.jpg",
-    "quote"   : "Everybody in the EU should get the same minimum salary!"
+    "quote"   : "The minimum salary salary should be the same across Europe!"
   },
   {
     "slug"    : "data",
     "picture" : "pics/keller.jpg",
-    "quote"   : "Telecom providers should not be allowed to track my data and store it!"
+    "quote"   : "Telecom providers should not be allowed to track and store my data!"
   },
   {
     "slug"    : "eurobonds",
@@ -37,7 +37,7 @@
   {
     "slug"    : "trains",
     "picture" : "pics/verhofstadt.jpg",
-    "quote"   : "We should built railways rather than invest in highways!"
+    "quote"   : "We should build railways instead of highways!"
   },
   {
     "slug"    : "aid",
