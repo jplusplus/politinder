@@ -1,0 +1,4460 @@
+[
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://www.facebook.com/carole.ulmer.5",
+            "twitter": "https://twitter.com/CaroleUlmer"
+        },
+        "name": "Carole Ulmer",
+        "party": "L'Alternative (UDI/MoDem)",
+        "picture": "pics/CaroleUlmer.jpeg",
+        "region": "Nord-Ouest"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/catherine.greze",
+            "twitter": "https://twitter.com/CatherineGreze"
+        },
+        "name": "Catherine Gr\u00e8ze",
+        "party": "Europe \u00c9cologie Les Verts",
+        "picture": "pics/CatherineGreze.jpeg",
+        "region": "Sud-Ouest"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/ClarisseHeusquin",
+            "twitter": "https://twitter.com/C_Heusquin"
+        },
+        "name": "Clarisse Heusquin",
+        "party": "Europe \u00c9cologie Les Verts",
+        "picture": "pics/C_Heusquin.jpeg",
+        "region": "Massif Central-Centre"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "aid": true,
+            "army": true,
+            "asylum": false,
+            "co2": false,
+            "data": false,
+            "eurobonds": true,
+            "minimum": false,
+            "tax": true,
+            "trains": false
+        },
+        "country": "france",
+        "eu_party": "European People's Party",
+        "links": {
+            "facebook": "https://www.facebook.com/ContanceLeGrip",
+            "twitter": "https://twitter.com/clegrip"
+        },
+        "name": "Constance LE GRIP",
+        "party": "Union pour un Mouvement Populaire",
+        "picture": "pics/clegrip.jpg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "asylum": true,
+            "co2": false,
+            "data": true,
+            "minimum": true,
+            "tax": true
+        },
+        "country": "france",
+        "eu_party": "European United Left/Nordic Green Left",
+        "links": {
+            "facebook": "https://www.facebook.com/pages/Corinne-Morel-Darleux/104763509628326",
+            "twitter": "https://twitter.com/cmoreldarleux"
+        },
+        "name": "Corinne Morel Darleux",
+        "party": "Front de gauche",
+        "picture": "pics/cmoreldarleux.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://www.facebook.com/elodie.humeau.58",
+            "twitter": "https://twitter.com/elodie_humeau"
+        },
+        "name": "Elodie Humeau",
+        "party": "L'Alternative (UDI/MoDem)",
+        "picture": "pics/elodie_humeau.jpeg",
+        "region": "Sud-Est"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "twitter": "https://twitter.com/degentili"
+        },
+        "name": "Emmanuelle De Gentili",
+        "party": "Parti socialiste",
+        "picture": "pics/degentili.jpeg",
+        "region": "Sud-Est"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "twitter": "https://twitter.com/Veillerette"
+        },
+        "name": "Fran\u00e7ois Veillerette",
+        "party": "Europe \u00c9cologie Les Verts",
+        "picture": "pics/Veillerette.JPG",
+        "region": "Nord-Ouest"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://www.facebook.com/pages/Jean-Iglesis/1520609868166112",
+            "twitter": "https://twitter.com/JeanIglesis"
+        },
+        "name": "Jean Iglesis",
+        "party": "L'Alternative (UDI/MoDem)",
+        "picture": "pics/JeanIglesis.jpeg",
+        "region": "Sud-Ouest"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/jeancharles.kohlhaas?viewer_id=0",
+            "twitter": "https://twitter.com/JCKohlhaas"
+        },
+        "name": "Jean-Charles Kohlhass",
+        "party": "Europe \u00c9cologie Les Verts",
+        "picture": "pics/JCKohlhaas.jpeg",
+        "region": "Sud-Est"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://www.facebook.com/avecloric",
+            "twitter": "https://twitter.com/avecloric"
+        },
+        "name": "Jean-Christophe Loric",
+        "party": "L'Alternative (UDI/MoDem)",
+        "picture": "pics/avecloric.jpg",
+        "region": "Nord-Ouest"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/pages/Jean-Philippe-Magnen/141834942497974",
+            "twitter": "https://twitter.com/jp_magnen"
+        },
+        "name": "Jean-Philippe Magnen",
+        "party": "Europe \u00c9cologie Les Verts",
+        "picture": "pics/jp_magnen.jpeg",
+        "region": "Ouest"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/BoveJose",
+            "twitter": "https://twitter.com/josebove"
+        },
+        "name": "Jos\u00e9 Bov\u00e9",
+        "party": "Europe \u00c9cologie Les Verts",
+        "picture": "pics/josebove.jpeg",
+        "region": "Sud-Ouest"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "twitter": "http://twitter.com/julienbayou"
+        },
+        "name": "Julien Bayou",
+        "party": "Europe \u00c9cologie Les Verts",
+        "picture": "pics/julienbayou.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/pages/Karim-Z%C3%A9ribi/10403051980",
+            "twitter": "https://twitter.com/KarimZeribi"
+        },
+        "name": "Karim Z\u00c9RIBI",
+        "party": "Europe \u00c9cologie Les Verts",
+        "picture": "pics/KarimZeribi.jpeg",
+        "region": "Sud-Est"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/KarimaDelliMEP",
+            "twitter": "https://twitter.com/KarimaDelli"
+        },
+        "name": "Karima Delli",
+        "party": "Europe \u00c9cologie Les Verts",
+        "picture": "pics/KarimaDelli.jpeg",
+        "region": "Nord-Ouest"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/laurence.eberhardharribey",
+            "twitter": "https://twitter.com/L_Harribey"
+        },
+        "name": "Laurence Harribey",
+        "party": "Parti socialiste",
+        "picture": "pics/L_Harribey.jpeg",
+        "region": "Sud-Ouest"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "twitter": "https://twitter.com/LMaillart"
+        },
+        "name": "Laurence Maillart-M\u00e9haignerie",
+        "party": "L'Alternative (UDI/MoDem)",
+        "picture": "pics/LMaillart.jpeg",
+        "region": "Ouest"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "asylum": true,
+            "co2": false,
+            "data": true,
+            "minimum": true,
+            "tax": true
+        },
+        "country": "france",
+        "eu_party": "European United Left/Nordic Green Left",
+        "links": {
+            "facebook": "https://www.facebook.com/pages/Marie-Christine-Vergiat-D%C3%A9put%C3%A9e-europ%C3%A9enne-Front-de-gauche/197597963585193",
+            "twitter": "https://twitter.com/MCVergiat"
+        },
+        "name": "Marie-Christine Vergiat",
+        "party": "Front de gauche",
+        "picture": "pics/MCVergiat.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "aid": true,
+            "army": true,
+            "asylum": false,
+            "co2": false,
+            "data": false,
+            "eurobonds": true,
+            "minimum": false,
+            "tax": true,
+            "trains": false
+        },
+        "country": "france",
+        "eu_party": "European People's Party",
+        "links": {
+            "facebook": "https://www.facebook.com/pages/Marie-Th%C3%A9r%C3%A8se-Sanchez-Schmid/125232487497326",
+            "twitter": "https://twitter.com/SanchezSchmid"
+        },
+        "name": "Marie-Th\u00e9r\u00e8se SANCHEZ-SCHMID",
+        "party": "Union pour un Mouvement Populaire",
+        "picture": "pics/SanchezSchmid.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/Michele.Rivasi",
+            "twitter": "https://twitter.com/MicheleRivasi"
+        },
+        "name": "Mich\u00e8le RIVASI",
+        "party": "Europe \u00c9cologie Les Verts",
+        "picture": "pics/MicheleRivasi.jpeg",
+        "region": "Sud-Est"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://www.facebook.com/michele.striffler",
+            "twitter": "https://twitter.com/STRIFFLERM"
+        },
+        "name": "Mich\u00e8le Striffler",
+        "party": "L'Alternative (UDI/MoDem)",
+        "picture": "pics/STRIFFLERM.jpeg",
+        "region": "Est"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/eelvidf",
+            "twitter": "https://twitter.com/ttps://twitter.com/MMechmache"
+        },
+        "name": "Mohamed Mechmache",
+        "party": "Europe \u00c9cologie Les Verts",
+        "picture": "pics/MMechmache.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://www.facebook.com/muriel.boulmier",
+            "twitter": "https://twitter.com/MurielBoulmier"
+        },
+        "name": "Muriel Boulmier",
+        "party": "L'Alternative (UDI/MoDem)",
+        "picture": "pics/MurielBoulmier.jpeg",
+        "region": "Sud-Ouest"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://www.facebook.com/nadinerivet87",
+            "twitter": "https://twitter.com/NadineRIVET"
+        },
+        "name": "Nadine Rivet",
+        "party": "L'Alternative (UDI/MoDem)",
+        "picture": "pics/NadineRIVET.jpg",
+        "region": "Massif Central-Centre"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "twitter": "https://twitter.com/DurandEELV"
+        },
+        "name": "Pascal Durand",
+        "party": "Europe \u00c9cologie Les Verts",
+        "picture": "pics/DurandEELV.jpeg",
+        "region": "Ile de France"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "asylum": true,
+            "co2": false,
+            "data": true,
+            "minimum": true,
+            "tax": true
+        },
+        "country": "france",
+        "eu_party": "European United Left/Nordic Green Left",
+        "links": {
+            "twitter": "https://twitter.com/PatrickLeHyaric"
+        },
+        "name": "Patrick Le Hyaric",
+        "party": "Front de gauche",
+        "picture": "pics/PatrickLeHyaric.jpeg",
+        "region": "Ile de France"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "twitter": "https://twitter.com/PervencheBeres"
+        },
+        "name": "Pervenche BER\u00c8S",
+        "party": "Parti socialiste",
+        "picture": "pics/PervencheBeres.png",
+        "region": "Ile de France"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "aid": true,
+            "army": true,
+            "asylum": false,
+            "co2": false,
+            "data": false,
+            "eurobonds": true,
+            "minimum": false,
+            "tax": true,
+            "trains": false
+        },
+        "country": "france",
+        "eu_party": "European People's Party",
+        "links": {
+            "facebook": "https://www.facebook.com/philippe.juvin#!/pages/Philippe-Juvin/10494001458",
+            "twitter": "https://twitter.com/philippejuvin"
+        },
+        "name": "Philippe JUVIN",
+        "party": "Union pour un Mouvement Populaire",
+        "picture": "pics/philippejuvin.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/renaud.lagrave",
+            "twitter": "https://twitter.com/renaudlagrave"
+        },
+        "name": "Renaud Lagrave",
+        "party": "Parti socialiste",
+        "picture": "pics/renaudlagrave.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/sandrine.belier1",
+            "twitter": "http://twitter.com/sandrinebelier"
+        },
+        "name": "Sandrine B\u00e9lier",
+        "party": "Europe \u00c9cologie Les Verts",
+        "picture": "pics/sandrinebelier.jpeg",
+        "region": "Est"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://www.facebook.com/pages/Sophie-Auconie/99848362706",
+            "twitter": "https://twitter.com/Sophie_Auconie"
+        },
+        "name": "Sophie Auconie",
+        "party": "L'Alternative (UDI/MoDem)",
+        "picture": "pics/Sophie_Auconie.jpeg",
+        "region": "Massif Central-Centre"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/sylvieguillaume.deputeeeuropeenne",
+            "twitter": "https://twitter.com/sylvieguillaume"
+        },
+        "name": "Sylvie GUILLAUME",
+        "party": "Parti socialiste",
+        "picture": "pics/sylvieguillaume.jpeg",
+        "region": "Sud-Est"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "aid": true,
+            "army": true,
+            "asylum": false,
+            "co2": false,
+            "data": false,
+            "eurobonds": true,
+            "minimum": false,
+            "tax": true,
+            "trains": false
+        },
+        "country": "france",
+        "eu_party": "European People's Party",
+        "links": {
+            "facebook": "https://www.facebook.com/tokia.saifi",
+            "twitter": "https://twitter.com/ttps://twitter.com/TokiaSaifi"
+        },
+        "name": "Tokia SA\u00cfFI",
+        "party": "Union pour un Mouvement Populaire",
+        "picture": "pics/TokiaSaifi.JPG",
+        "region": "Nord-Ouest"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/virginie.roziere",
+            "twitter": "https://twitter.com/VRoziere"
+        },
+        "name": "Virginie Rozi\u00e8re\u00a0(Radical Party of the Left \u2013 PRG)",
+        "party": "Parti socialiste",
+        "picture": "pics/VRoziere.jpeg",
+        "region": "Sud-Ouest"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "france",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "twitter": "https://twitter.com/ZakiLaidi"
+        },
+        "name": "Zaiki La\u00efdi",
+        "party": "Parti socialiste",
+        "picture": "pics/ZakiLaidi.jpeg",
+        "region": "Sud-Est"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "aid": true,
+            "army": true,
+            "asylum": false,
+            "co2": false,
+            "data": false,
+            "eurobonds": true,
+            "minimum": false,
+            "tax": true,
+            "trains": false
+        },
+        "country": "france",
+        "eu_party": "European People's Party",
+        "links": {
+            "facebook": "https://www.facebook.com/zartoshte.bakhtiari93",
+            "twitter": "https://twitter.com/Zart_b"
+        },
+        "name": "Zartoshte BAKHTIARI",
+        "party": "Union pour un Mouvement Populaire",
+        "picture": "pics/Zart_b.jpeg",
+        "region": "Ile de France"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "sweden",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/aandersdotter",
+            "twitter": "https://twitter.com/teirdes"
+        },
+        "name": "Amelia Andersdotter",
+        "party": "Piratpartiet",
+        "picture": "pics/teirdes.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "aid": true,
+            "army": true,
+            "asylum": false,
+            "co2": false,
+            "data": false,
+            "eurobonds": true,
+            "minimum": false,
+            "tax": true,
+            "trains": false
+        },
+        "country": "sweden",
+        "eu_party": "European People's Party",
+        "links": {
+            "facebook": "https://www.facebook.com/pages/Anna-Maria-Corazza-Bildt/69490331421",
+            "twitter": "https://twitter.com/ANNAMARIACB"
+        },
+        "name": "Anna Maria Corazza Bildt",
+        "party": "Moderata Samlingspartiet",
+        "picture": "pics/ANNAMARIACB.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "sweden",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/antonnordenfur",
+            "twitter": "https://twitter.com/antonnordenfur"
+        },
+        "name": "Anton Nordenfur",
+        "party": "Piratpartiet",
+        "picture": "pics/antonnordenfur.png",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "aid": true,
+            "army": true,
+            "asylum": false,
+            "co2": false,
+            "data": false,
+            "eurobonds": true,
+            "minimum": false,
+            "tax": true,
+            "trains": false
+        },
+        "country": "sweden",
+        "eu_party": "European People's Party",
+        "links": {
+            "facebook": "https://www.facebook.com/bohlin2014",
+            "twitter": "http://www.twitter.com/carloskar"
+        },
+        "name": "Carl-Oskar Bohlin",
+        "party": "Moderata Samlingspartiet",
+        "picture": "pics/carloskar.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "sweden",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://www.facebook.com/pages/Europaparlamentariker-Cecilia-Wikstr%C3%B6m/300583770875",
+            "twitter": "https://twitter.com/CeciliaWikstrom"
+        },
+        "name": "Cecilia Wikstr\u00f6m",
+        "party": "Folkpartiet liberalerna",
+        "picture": "pics/CeciliaWikstrom.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "sweden",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "twitter": "https://mobile.twitter.com/EllinorSSU"
+        },
+        "name": "Ellinor Eriksson",
+        "party": "Socialdemokraterna",
+        "picture": "pics/EllinorSSU.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "sweden",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "twitter": "https://twitter.com/Evin_Incir"
+        },
+        "name": "Evin Incir",
+        "party": "Socialdemokraterna",
+        "picture": "pics/Evin_Incir.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "sweden",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/izziedizzy",
+            "twitter": "https://twitter.com/izziedizzy87"
+        },
+        "name": "Isabelle Danielsson",
+        "party": "Piratpartiet",
+        "picture": "pics/izziedizzy87.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "sweden",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/jens.nilsson.eu?fref=ts",
+            "twitter": "https://twitter.com/jensni"
+        },
+        "name": "Jens  Nilsson",
+        "party": "Socialdemokraterna",
+        "picture": "pics/jensni.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "sweden",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://www.facebook.com/jose.kimenga",
+            "twitter": "http://twitter.com/josekimenga"
+        },
+        "name": "Jos\u00e9  Kimenga",
+        "party": "Folkpartiet liberalerna",
+        "picture": "pics/josekimenga.png",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "sweden",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/linnea.engstrom.33",
+            "twitter": "http://www.twitter.com/LinneaEngstrom"
+        },
+        "name": "Linn\u00e9a Engstr\u00f6m",
+        "party": "Milj\u00f6partiet de gr\u00f6na",
+        "picture": "pics/LinneaEngstrom.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "sweden",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/kryssa.magnus",
+            "twitter": "https://twitter.com/permagnusn"
+        },
+        "name": "Magnus Nilsson",
+        "party": "Socialdemokraterna",
+        "picture": "pics/permagnusn.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "sweden",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/profile.php?id=1491451026",
+            "twitter": "https://twitter.com/maritaulvskog"
+        },
+        "name": "Marita Ulvskog",
+        "party": "Socialdemokraterna",
+        "picture": "pics/maritaulvskog.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "sweden",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "twitter": "https://twitter.com/MariyaVoy"
+        },
+        "name": "Mariya Voyvodova",
+        "party": "Socialdemokraterna",
+        "picture": "pics/MariyaVoy.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "asylum": true,
+            "co2": false,
+            "data": true,
+            "minimum": true,
+            "tax": true
+        },
+        "country": "sweden",
+        "eu_party": "European United Left/Nordic Green Left",
+        "links": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/Jallow_M"
+        },
+        "name": "Momodou Jallow",
+        "party": "V\u00e4nsterpartiet",
+        "picture": "pics/Jallow_M.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "sweden",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/LoveMee",
+            "twitter": "https://twitter.com/NathalieYlitalo"
+        },
+        "name": "Natalie Ylitalo",
+        "party": "Piratpartiet",
+        "picture": "pics/NathalieYlitalo.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "sweden",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/olle.ludvigsson",
+            "twitter": "https://twitter.com/olleludvigsson"
+        },
+        "name": "Olle LUDVIGSSON",
+        "party": "Socialdemokraterna",
+        "picture": "pics/olleludvigsson.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "sweden",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/olle.ludvigsson",
+            "twitter": "https://twitter.com/olleludvigsson"
+        },
+        "name": "Olle Ludvigsson",
+        "party": "Socialdemokraterna",
+        "picture": "pics/olleludvigsson.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "sweden",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://www.facebook.com/RobertHannahFolkpartiet",
+            "twitter": "https://twitter.com/RobertHannah85"
+        },
+        "name": "Robert Hannah",
+        "party": "Folkpartiet liberalerna",
+        "picture": "pics/RobertHannah85.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "sweden",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/torbjorn.wester",
+            "twitter": "https://twitter.com/Torbjorn_Wester"
+        },
+        "name": "Torbj\u00f6rn Wester",
+        "party": "Piratpartiet",
+        "picture": "pics/Torbjorn_Wester.jpg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "sweden",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "twitter": "http://twitter.com/troed"
+        },
+        "name": "Troed S\u00e5ngberg",
+        "party": "Piratpartiet",
+        "picture": "pics/troed.png",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "sweden",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://www.facebook.com/ulrika.geeraedts",
+            "twitter": "Http://Www.twitter.com/ulrikaGeeraedts"
+        },
+        "name": "Ulrika Geeraedts ",
+        "party": "Folkpartiet liberalerna",
+        "picture": "pics/ulrikaGeeraedts.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/afzalkhannw",
+            "twitter": "https://twitter.com/cllrakhan"
+        },
+        "name": "Afzal Khan",
+        "party": "Labour Party",
+        "picture": "pics/cllrakhan.jpg",
+        "region": "North West"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "twitter": "https://twitter.com/alecaberystwyth"
+        },
+        "name": "Alec Dauncey",
+        "party": "Liberal Democrats Party",
+        "picture": "pics/alecaberystwyth.JPG",
+        "region": "Wales"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "European Conservatives and Reformists",
+        "links": {
+            "twitter": "https://twitter.com/Aled_Glanogeu"
+        },
+        "name": "Aled Davies",
+        "party": "Conservative Party",
+        "picture": "pics/Aled_Glanogeu.jpeg",
+        "region": "Wales"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "twitter": "https://twitter.com/AlexForEurope"
+        },
+        "name": "Alex Attwood",
+        "party": "Social Democratic and Labour Party ",
+        "picture": "pics/AlexForEurope.jpeg",
+        "region": "Northern Ireland"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/alexlmayer",
+            "twitter": "https://twitter.com/alexlmayer"
+        },
+        "name": "Alex Mayer",
+        "party": "Labour Party",
+        "picture": "pics/alexlmayer.JPG",
+        "region": "Eastern"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "twitter": "https://twitter.com/alex4europe"
+        },
+        "name": "Alexandra Phillips",
+        "party": "Green Party",
+        "picture": "pics/alex4europe.png",
+        "region": "South East"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/AmeliaWomackEuroList",
+            "twitter": "https://twitter.com/green_ballerina"
+        },
+        "name": "Amelia Womack",
+        "party": "Green Party",
+        "picture": "pics/green_ballerina.png",
+        "region": "London"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "twitter": "https://twitter.com/clrandrewcooper"
+        },
+        "name": "Andrew Cooper",
+        "party": "Green Party",
+        "picture": "pics/clrandrewcooper.png",
+        "region": "Yorkshire and the Humber"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://www.facebook.com/AndrewDuffMEP",
+            "twitter": "https://twitter.com/Andrew_Duff_MEP"
+        },
+        "name": "Andrew DUFF",
+        "party": "Liberal Democrats Party",
+        "picture": "pics/Andrew_Duff_MEP.jpg",
+        "region": "Eastern"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://www.facebook.com/voteangelika",
+            "twitter": "http://www.twitter.com/Angel4theNorth"
+        },
+        "name": "Angelika Schneider",
+        "party": "Liberal Democrats Party",
+        "picture": "pics/Angel4theNorth.jpeg",
+        "region": "North East"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "twitter": "https://twitter.com/Angeliki4eu"
+        },
+        "name": "Angeliki Stogia",
+        "party": "Labour Party",
+        "picture": "pics/Angeliki4eu.jpeg",
+        "region": "North West"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "twitter": "https://twitter.com/SomersetAnn"
+        },
+        "name": "Ann Reeder",
+        "party": "Labour Party",
+        "picture": "pics/SomersetAnn.jpeg",
+        "region": "South West"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "Europe of Freedom and Democracy",
+        "links": {
+            "facebook": "https://www.facebook.com/margaretanne.murgatroyd",
+            "twitter": "https://twitter.com/meganne121"
+        },
+        "name": "Anne Murgatroyd",
+        "party": "United Kingdom Independence Party",
+        "picture": "pics/meganne121.png",
+        "region": "Yorkshire and the Humber"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/anneliesedodds4southeast",
+            "twitter": "https://twitter.com/AnnelieseDodds"
+        },
+        "name": "Anneliese Dodds",
+        "party": "Labour Party",
+        "picture": "pics/AnnelieseDodds.jpeg",
+        "region": "South East"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "twitter": "https://twitter.com/ansar_ali_khan"
+        },
+        "name": "Ansar Ali Khan",
+        "party": "Labour Party",
+        "picture": "pics/ansar_ali_khan.jpg",
+        "region": "West Midlands"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "European Conservatives and Reformists",
+        "links": {
+            "facebook": "https://www.facebook.com/anthea.mcintyre",
+            "twitter": "https://twitter.com/anthea_mcintyre"
+        },
+        "name": "Anthea McINTYRE",
+        "party": "Conservative Party",
+        "picture": "pics/anthea_mcintyre.jpeg",
+        "region": "West Midlands"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "Europe of Freedom and Democracy",
+        "links": {
+            "facebook": "https://www.facebook.com/anthonybrownukip",
+            "twitter": "https://twitter.com/libertariantony"
+        },
+        "name": "Anthony Brown",
+        "party": "United Kingdom Independence Party",
+        "picture": "pics/libertariantony.jpeg",
+        "region": "London"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "twitter": "https://twitter.com/antonyhook"
+        },
+        "name": "Antony Hook",
+        "party": "Liberal Democrats Party",
+        "picture": "pics/antonyhook.jpeg",
+        "region": "South East"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/ArleneMcCarthyMEP",
+            "twitter": "https://twitter.com/EuroMP_ArleneMc"
+        },
+        "name": "Arlene McCarthy",
+        "party": "Labour Party",
+        "picture": "pics/EuroMP_ArleneMc.jpeg",
+        "region": "North West"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "twitter": "https://twitter.com/Asghar4Labour"
+        },
+        "name": "Asghar Khan",
+        "party": "Labour Party",
+        "picture": "pics/Asghar4Labour.png",
+        "region": "Yorkshire and the Humber"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "twitter": "https://twitter.com/ashlizhaynes"
+        },
+        "name": "Ash Haynes",
+        "party": "Green Party",
+        "picture": "pics/ashlizhaynes.jpeg",
+        "region": "Eastern"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "European Conservatives and Reformists",
+        "links": {
+            "facebook": "https://www.facebook.com/ashleyfoxmep",
+            "twitter": "https://twitter.com/Ashleyfoxmep"
+        },
+        "name": "Ashley FOX",
+        "party": "Conservative Party",
+        "picture": "pics/Ashleyfoxmep.jpeg",
+        "region": "South West"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/asim2208",
+            "twitter": "https://twitter.com/asim_rel"
+        },
+        "name": "Asim Khan",
+        "party": "Labour Party",
+        "picture": "pics/asim_rel.jpeg",
+        "region": "Scotland"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "twitter": "https://twitter.com/audaye"
+        },
+        "name": "Audaye Elesady",
+        "party": "Green Party",
+        "picture": "pics/audaye.jpeg",
+        "region": "South West"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "Europe of Freedom and Democracy",
+        "links": {
+            "facebook": "https://www.facebook.com/BarryCooperUKIP",
+            "twitter": "https://twitter.com/waddesdonbaz"
+        },
+        "name": "Barry Cooper",
+        "party": "United Kingdom Independence Party",
+        "picture": "pics/waddesdonbaz.jpeg",
+        "region": "South East"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "twitter": "https://twitter.com/beatrixcampbell"
+        },
+        "name": "Beatrix Campbell",
+        "party": "Green Party",
+        "picture": "pics/beatrixcampbell.jpg",
+        "region": "South East"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "European Conservatives and Reformists",
+        "links": {
+            "twitter": "https://twitter.com/BenHouchen"
+        },
+        "name": "Ben Houchen",
+        "party": "Conservative Party",
+        "picture": "pics/BenHouchen.png",
+        "region": "North East"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "http://www.facebook.com/greenbsamuel",
+            "twitter": "http://twitter.com/natalieben"
+        },
+        "name": "Ben Samuel",
+        "party": "Green Party",
+        "picture": "pics/natalieben.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/VoteJoshi4MEP",
+            "twitter": "https://twitter.com/VoteJoshi"
+        },
+        "name": "Bhavna Joshi",
+        "party": "Labour Party",
+        "picture": "pics/VoteJoshi.jpeg",
+        "region": "Eastern"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "Europe of Freedom and Democracy",
+        "links": {
+            "facebook": "https://www.facebook.com/williametheridge666",
+            "twitter": "https://twitter.com/milroy666"
+        },
+        "name": "Bill Etheridge",
+        "party": "United Kingdom Independence Party",
+        "picture": "pics/milroy666.jpeg",
+        "region": "West Midlands"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://www.facebook.com/pages/Bill-Newton-Dunn/22060260589",
+            "twitter": "https://twitter.com/billnewtondunn"
+        },
+        "name": "Bill Newton Dunn",
+        "party": "Liberal Democrats Party",
+        "picture": "pics/billnewtondunn.jpeg",
+        "region": "East Midlands"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "twitter": "https://twitter.com/Brian4NSomerset"
+        },
+        "name": "Brian Mathew",
+        "party": "Liberal Democrats Party",
+        "picture": "pics/Brian4NSomerset.JPG",
+        "region": "South West"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/LondonGreenParty",
+            "twitter": "https://twitter.com/Green_Caroline"
+        },
+        "name": "Caroline Allen",
+        "party": "Green Party",
+        "picture": "pics/Green_Caroline.png",
+        "region": "London"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/catherine.stihler",
+            "twitter": "https://twitter.com/C_Stihler_MEP"
+        },
+        "name": "Catherine Stihler",
+        "party": "Labour Party",
+        "picture": "pics/C_Stihler_MEP.jpeg",
+        "region": "Scotland"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "European Conservatives and Reformists",
+        "links": {
+            "facebook": "https://www.facebook.com/pages/Charles-Tannock/139629296056413#!/ctannock",
+            "twitter": "https://twitter.com/JamesCleverly"
+        },
+        "name": "Charles TANNOCK",
+        "party": "Conservative Party",
+        "picture": "pics/JamesCleverly.jpg",
+        "region": "London"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "twitter": "https://twitter.com/CllrChasBooth"
+        },
+        "name": "Chas Booth",
+        "party": "Green Party",
+        "picture": "pics/CllrChasBooth.png",
+        "region": "Scotland"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://www.facebook.com/chris.davies.mep",
+            "twitter": "https://twitter.com/ChrisDaviesMEP"
+        },
+        "name": "Chris DAVIES",
+        "party": "Liberal Democrats Party",
+        "picture": "pics/ChrisDaviesMEP.jpg",
+        "region": "North West"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "twitter": "https://twitter.com/christianvassie"
+        },
+        "name": "Christian Vassie",
+        "party": "Liberal Democrats Party",
+        "picture": "pics/christianvassie.jpg",
+        "region": "North East"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/groups/594311520593518/",
+            "twitter": "https://twitter.com/ChrisForArfon"
+        },
+        "name": "Christina Rees",
+        "party": "Labour Party",
+        "picture": "pics/ChrisForArfon.png",
+        "region": "Wales"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "twitter": "https://twitter.com/ClareMMoody"
+        },
+        "name": "Clare Moody",
+        "party": "Labour Party",
+        "picture": "pics/ClareMMoody.jpg",
+        "region": "South West"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/claudemoraesmep",
+            "twitter": "https://twitter.com/ClaudeMoraesMEP"
+        },
+        "name": "Claude MORAES",
+        "party": "Labour Party",
+        "picture": "pics/ClaudeMoraesMEP.jpeg",
+        "region": "London"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "European Conservatives and Reformists",
+        "links": {
+            "facebook": "https://www.facebook.com/danielhannan",
+            "twitter": "https://twitter.com/DanHannanMEP"
+        },
+        "name": "Daniel HANNAN",
+        "party": "Conservative Party",
+        "picture": "pics/DanHannanMEP.jpeg",
+        "region": "South East"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "twitter": "https://twitter.com/darrenjlhughes"
+        },
+        "name": "Darren Hughes",
+        "party": "Labour Party",
+        "picture": "pics/darrenjlhughes.jpeg",
+        "region": "Yorkshire and the Humber"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "European Conservatives and Reformists",
+        "links": {
+            "facebook": "https://www.facebook.com/DCBMEP",
+            "twitter": "https://twitter.com/DCBMEP"
+        },
+        "name": "David Campbell Bannermann",
+        "party": "Conservative Party",
+        "picture": "pics/DCBMEP.jpeg",
+        "region": "Eastern"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "Europe of Freedom and Democracy",
+        "links": {
+            "twitter": "https://twitter.com/DavidCoburnUKip"
+        },
+        "name": "David Coburn",
+        "party": "United Kingdom Independence Party",
+        "picture": "pics/DavidCoburnUKip.jpeg",
+        "region": "Scotland"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/DavidMartinMEP",
+            "twitter": "https://twitter.com/davidmartinmep"
+        },
+        "name": "David Martin",
+        "party": "Labour Party",
+        "picture": "pics/davidmartinmep.jpg",
+        "region": "Scotland"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "http://www.facebook.com/DeniseCraghill",
+            "twitter": "http://www.twitter.com/DeniseCraghill"
+        },
+        "name": "Denise Craghill",
+        "party": "Green Party",
+        "picture": "pics/DeniseCraghill.png",
+        "region": "Yorkshire and the Humber"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/Derek4Europe",
+            "twitter": "https://twitter.com/Derek4Europe"
+        },
+        "name": "Derek Munn",
+        "party": "Labour Party",
+        "picture": "pics/Derek4Europe.jpeg",
+        "region": "Scotland"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/derekvaughanmep",
+            "twitter": "https://twitter.com/derekvaughan"
+        },
+        "name": "Derek Vaughan",
+        "party": "Labour Party",
+        "picture": "pics/derekvaughan.jpg",
+        "region": "Wales"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "twitter": "https://twitter.com/Anothergreen"
+        },
+        "name": "Derek Wall",
+        "party": "Green Party",
+        "picture": "pics/Anothergreen.png",
+        "region": "South East"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "Europe of Freedom and Democracy",
+        "links": {
+            "twitter": "https://twitter.com/DianeUKIP"
+        },
+        "name": "Diane James",
+        "party": "United Kingdom Independence Party",
+        "picture": "pics/DianeUKIP.jpeg",
+        "region": "South East"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://facebook.com/ttps://www.facebook.com/pages/Dinti-Batstone/105351986195513",
+            "twitter": "https://twitter.com/DintiBatstone"
+        },
+        "name": "Dinti Batstone",
+        "party": "Liberal Democrats Party",
+        "picture": "pics/DintiBatstone.jpeg",
+        "region": "South East"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "Europe of Freedom and Democracy",
+        "links": {
+            "facebook": "https://www.facebook.com/DonnaEdmundsUKIP",
+            "twitter": "https://twitter.com/DonnaInSussex"
+        },
+        "name": "Donna Edmunds",
+        "party": "United Kingdom Independence Party",
+        "picture": "pics/DonnaInSussex.png",
+        "region": "South East"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "twitter": "https://twitter.com/ejtunnicliffe"
+        },
+        "name": "Eleanor Tunnicliffe",
+        "party": "Labour Party",
+        "picture": "pics/ejtunnicliffe.jpeg",
+        "region": "Yorkshire and the Humber"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/Emily4MEP",
+            "twitter": "https://twitter.com/emilywestley"
+        },
+        "name": "Emily Westley",
+        "party": "Labour Party",
+        "picture": "pics/emilywestley.jpeg",
+        "region": "South East"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "European Conservatives and Reformists",
+        "links": {
+            "facebook": "https://www.facebook.com/emma.mcclarkinmep",
+            "twitter": "https://twitter.com/EmmaMcClarkin"
+        },
+        "name": "Emma McClarkin",
+        "party": "Conservative Party",
+        "picture": "pics/EmmaMcClarkin.jpeg",
+        "region": "East Midlands"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "twitter": "https://twitter.com/FarahNazeer"
+        },
+        "name": "Farah Nazeer",
+        "party": "Labour Party",
+        "picture": "pics/FarahNazeer.jpeg",
+        "region": "South East"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/fionaradic.page",
+            "twitter": "https://twitter.com/FionaRadic"
+        },
+        "name": "Fiona Radic",
+        "party": "Green Party",
+        "picture": "pics/FionaRadic.png",
+        "region": "Eastern"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "Europe of Freedom and Democracy",
+        "links": {
+            "facebook": "https://www.facebook.com/gawain.towler",
+            "twitter": "https://twitter.com/GawainTowler"
+        },
+        "name": "Gawain Towler",
+        "party": "United Kingdom Independence Party",
+        "picture": "pics/GawainTowler.jpg",
+        "region": "South West"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "European Conservatives and Reformists",
+        "links": {
+            "twitter": "https://twitter.com/GeorgeAJeffrey"
+        },
+        "name": "George Jeffrey",
+        "party": "Conservative Party",
+        "picture": "pics/GeorgeAJeffrey.jpeg",
+        "region": "South East"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://www.facebook.com/georgelyonmep",
+            "twitter": "https://twitter.com/georgelyonmep"
+        },
+        "name": "George LYON",
+        "party": "Liberal Democrats Party",
+        "picture": "pics/georgelyonmep.jpg",
+        "region": "Scotland"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "twitter": "https://twitter.com/ttp://www.twitter.com/GeorgeSmid"
+        },
+        "name": "George \u0160m\u00edd",
+        "party": "Liberal Democrats Party",
+        "picture": "pics/GeorgeSmid.png",
+        "region": "East Midlands"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "European Conservatives and Reformists",
+        "links": {
+            "twitter": "https://twitter.com/gbdiplo"
+        },
+        "name": "Georgina Butler",
+        "party": "Conservative Party",
+        "picture": "pics/gbdiplo.jpeg",
+        "region": "South West"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "Europe of Freedom and Democracy",
+        "links": {
+            "twitter": "https://twitter.com/GerardBattenMEP"
+        },
+        "name": "Gerard Batten",
+        "party": "United Kingdom Independence Party",
+        "picture": "pics/GerardBattenMEP.jpg",
+        "region": "London"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://www.facebook.com/GoodallGiles",
+            "twitter": "http://www.twitter.com/GoodallGiles"
+        },
+        "name": "Giles  Goodall",
+        "party": "Liberal Democrats Party",
+        "picture": "pics/GoodallGiles.jpeg",
+        "region": "South East"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/gina.dowding.9",
+            "twitter": "https://twitter.com/GinaDowding"
+        },
+        "name": "Gina Dowding",
+        "party": "Green Party",
+        "picture": "pics/GinaDowding.png",
+        "region": "North West"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/glenis.willmott",
+            "twitter": "https://twitter.com/gleniswillmott"
+        },
+        "name": "Glenis Willmott",
+        "party": "Labour Party",
+        "picture": "pics/gleniswillmott.jpeg",
+        "region": "East Midlands"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "European Conservatives and Reformists",
+        "links": {
+            "facebook": "https://www.facebook.com/pages/Graham-Knight/448397875202174",
+            "twitter": "https://twitter.com/GrahamKNIGHT2"
+        },
+        "name": "Graham Knight",
+        "party": "Conservative Party",
+        "picture": "pics/GrahamKNIGHT2.jpeg",
+        "region": "South East"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "twitter": "https://twitter.com/GwynforO"
+        },
+        "name": "Gwynfor Owen",
+        "party": "Plaid Cymru - Party of Wales",
+        "picture": "pics/GwynforO.jpg",
+        "region": "Wales"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/HadleighEU",
+            "twitter": "https://twitter.com/HadleighRoberts"
+        },
+        "name": "Hadleigh Roberts",
+        "party": "Labour Party",
+        "picture": "pics/HadleighRoberts.jpeg",
+        "region": "South West"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "twitter": "https://twitter.com/helen_fg"
+        },
+        "name": "Helen Foster-Grime",
+        "party": "Liberal Democrats Party",
+        "picture": "pics/helen_fg.jpg",
+        "region": "North West"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "twitter": "https://twitter.com/MirfinBoukouris"
+        },
+        "name": "Helen Mirfin-Boukouris",
+        "party": "Labour Party",
+        "picture": "pics/MirfinBoukouris.jpeg",
+        "region": "Yorkshire and the Humber"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "Europe of Freedom and Democracy",
+        "links": {
+            "twitter": "https://twitter.com/HenryReillyukip"
+        },
+        "name": "Henry Reilly",
+        "party": "United Kingdom Independence Party",
+        "picture": "pics/HenryReillyukip.jpeg",
+        "region": "Northern Ireland"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://www.facebook.com/hughannand.libdem",
+            "twitter": "http://twitter.com/Hugh_Annand"
+        },
+        "name": "Hugh Annand",
+        "party": "Liberal Democrats Party",
+        "picture": "pics/Hugh_Annand.jpg",
+        "region": "Eastern"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "European Conservatives and Reformists",
+        "links": {
+            "twitter": "https://twitter.com/IanDuncan2014"
+        },
+        "name": "Ian Duncan",
+        "party": "Conservative Party",
+        "picture": "pics/IanDuncan2014.jpeg",
+        "region": "Scotland"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/pages/Ian-Hudghton/112160948801194#!/group.php?gid=55983037095",
+            "twitter": "https://twitter.com/hudghtonmepSNP"
+        },
+        "name": "Ian Hudghton",
+        "party": "Scottish National Party",
+        "picture": "pics/hudghtonmepSNP.jpeg",
+        "region": "Scotland"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "twitter": "https://twitter.com/Ioanbellin"
+        },
+        "name": "Ioan Bellin",
+        "party": "Plaid Cymru - Party of Wales",
+        "picture": "pics/Ioanbellin.jpeg",
+        "region": "Wales"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "twitter": "https://twitter.com/Issanghazni"
+        },
+        "name": "Issan Ghazni",
+        "party": "Liberal Democrats Party",
+        "picture": "pics/Issanghazni.png",
+        "region": "East Midlands"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "twitter": "https://twitter.com/IvanaBartoletti"
+        },
+        "name": "Ivana Bartoletti",
+        "party": "Labour Party",
+        "picture": "pics/IvanaBartoletti.jpeg",
+        "region": "London"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "European Conservatives and Reformists",
+        "links": {
+            "facebook": "https://www.facebook.com/pages/Jacqueline-Foster-MEP/368940170596",
+            "twitter": "https://twitter.com/jfostermep"
+        },
+        "name": "Jacqueline FOSTER",
+        "party": "Conservative Party",
+        "picture": "pics/jfostermep.jpg",
+        "region": "North West"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "twitter": "https://twitter.com/veganfishcake"
+        },
+        "name": "Jake Welsh",
+        "party": "Green Party",
+        "picture": "pics/veganfishcake.jpeg",
+        "region": "North West"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "Europe of Freedom and Democracy",
+        "links": {
+            "twitter": "https://twitter.com/JamesJimCarver"
+        },
+        "name": "James Carver",
+        "party": "United Kingdom Independence Party",
+        "picture": "pics/JamesJimCarver.jpeg",
+        "region": "West Midlands"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "European Conservatives and Reformists",
+        "links": {
+            "facebook": "https://www.facebook.com/OfficialJamesCracknell",
+            "twitter": "https://twitter.com/JamesCracknell"
+        },
+        "name": "James Cracknell",
+        "party": "Conservative Party",
+        "picture": "pics/JamesCracknell.jpg",
+        "region": "South West"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "twitter": "https://twitter.com/jamesswindy"
+        },
+        "name": "James Swindlehurst",
+        "party": "Labour Party",
+        "picture": "pics/jamesswindy.jpeg",
+        "region": "South East"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "united-kingdom",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "twitter": "https://twitter.com/watkins_js"
+        },
+        "name": "James Watkins",
+        "party": "Labour Party",
+        "picture": "pics/watkins_js.jpeg",
+        "region": "South East"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "co2": false,
+            "eurobonds": true,
+            "tax": false
+        },
+        "country": "united-kingdom",
+        "eu_party": "Europe of Freedom and Democracy",
+        "links": {
+            "twitter": "https://twitter.com/Jane4ukip"
+        },
+        "name": "Jane Collins",
+        "party": "United Kingdom Independence Party",
+        "picture": "pics/Jane4ukip.jpeg",
+        "region": "Yorkshire and the Humber"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "twitter": "https://twitter.com/alexandrathein"
+        },
+        "name": "Alexandra Thein",
+        "party": "Freie Demokratische Partei",
+        "picture": "pics/alexandrathein.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "aid": true,
+            "army": true,
+            "asylum": false,
+            "co2": false,
+            "data": false,
+            "eurobonds": true,
+            "minimum": false,
+            "tax": true,
+            "trains": false
+        },
+        "country": "germany",
+        "eu_party": "European People's Party",
+        "links": {
+            "twitter": "https://twitter.com/AndreasMaslo"
+        },
+        "name": "Andreas Maslo",
+        "party": "Christlich-Soziale Union in Bayern e.V.",
+        "picture": "pics/AndreasMaslo.jpg",
+        "region": "Bayern"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "aid": true,
+            "army": true,
+            "asylum": false,
+            "co2": false,
+            "data": false,
+            "eurobonds": true,
+            "minimum": false,
+            "tax": true,
+            "trains": false
+        },
+        "country": "germany",
+        "eu_party": "European People's Party",
+        "links": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "http://www.twitter.com/Andreas_Schwab"
+        },
+        "name": "Andreas Schwab",
+        "party": "Christlich Demokratische Union Deutschlands",
+        "picture": "pics/Andreas_Schwab.JPG",
+        "region": "Baden-W\u00fcrttemberg"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/pages/Andrej-Novak-Gr%C3%BCner-Kandidat-f%C3%BCr-Europa/853020804714599",
+            "twitter": "https://twitter.com/andrejfnovak"
+        },
+        "name": "Andrej Novak",
+        "party": "B\u00fcndnis 90/Die Gr\u00fcnen",
+        "picture": "pics/andrejfnovak.jpg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "aid": true,
+            "army": true,
+            "asylum": false,
+            "co2": false,
+            "data": false,
+            "eurobonds": true,
+            "minimum": false,
+            "tax": true,
+            "trains": false
+        },
+        "country": "germany",
+        "eu_party": "European People's Party",
+        "links": {
+            "facebook": "https://www.facebook.com/apostolos.kelemidis;",
+            "twitter": "https://twitter.com/AKelemidis"
+        },
+        "name": "Apostolos Kelemidis",
+        "party": "Christlich Demokratische Union Deutschlands",
+        "picture": "pics/AKelemidis.jpeg",
+        "region": "Baden-W\u00fcrttemberg"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "twitter": "https://twitter.com/freiheitsfreund"
+        },
+        "name": "Arian Kriesch",
+        "party": "Freie Demokratische Partei",
+        "picture": "pics/freiheitsfreund.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://de-de.facebook.com/ArneLietz",
+            "twitter": "https://twitter.com/ArneLietz"
+        },
+        "name": "Arne  Lietz",
+        "party": "Sozialdemokratische Partei Deutschlands",
+        "picture": "pics/ArneLietz.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "aid": true,
+            "army": true,
+            "asylum": false,
+            "co2": false,
+            "data": false,
+            "eurobonds": true,
+            "minimum": false,
+            "tax": true,
+            "trains": false
+        },
+        "country": "germany",
+        "eu_party": "European People's Party",
+        "links": {
+            "facebook": "https://www.facebook.com/AxelVossMdEP",
+            "twitter": "https://twitter.com/AxelVossMdEP"
+        },
+        "name": "Axel Voss",
+        "party": "Christlich Demokratische Union Deutschlands",
+        "picture": "pics/AxelVossMdEP.png",
+        "region": "Nordrhein-Westfalen"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/barbara.lochbihler",
+            "twitter": "https://twitter.com/blochbihler"
+        },
+        "name": "Barbara Lochbihler",
+        "party": "B\u00fcndnis 90/Die Gr\u00fcnen",
+        "picture": "pics/blochbihler.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "twitter": "http://twitter.com/Beatrix_vStorch"
+        },
+        "name": "Beatrix von Storch",
+        "party": "Alternative f\u00fcr Deutschland",
+        "picture": "pics/Beatrix_vStorch.png",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://www.facebook.com/Beret.Roots;",
+            "twitter": "https://twitter.com/BeretRoots"
+        },
+        "name": "Beret Roots",
+        "party": "Freie Demokratische Partei",
+        "picture": "pics/BeretRoots.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/lange.mdep?a=10&b=3",
+            "twitter": "https://twitter.com/berndlange"
+        },
+        "name": "Bernd Lange",
+        "party": "Sozialdemokratische Partei Deutschlands",
+        "picture": "pics/berndlange.bmp",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://www.facebook.com/luckebernd;",
+            "twitter": "https://twitter.com/BerndLucke"
+        },
+        "name": "Bernd Lucke",
+        "party": "Alternative f\u00fcr Deutschland",
+        "picture": "pics/BerndLucke.png",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "aid": true,
+            "army": true,
+            "asylum": false,
+            "co2": false,
+            "data": false,
+            "eurobonds": true,
+            "minimum": false,
+            "tax": true,
+            "trains": false
+        },
+        "country": "germany",
+        "eu_party": "European People's Party",
+        "links": {
+            "facebook": "https://www.facebook.com/carsten.ovens;",
+            "twitter": "https://twitter.com/CarstenOvens"
+        },
+        "name": "Carsten Ovens",
+        "party": "Christlich Demokratische Union Deutschlands",
+        "picture": "pics/CarstenOvens.jpeg",
+        "region": "Hamburg"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/EUdiversity",
+            "twitter": "https://twitter.com/chrlinnartz"
+        },
+        "name": "Christine Linnartz",
+        "party": "B\u00fcndnis 90/Die Gr\u00fcnen",
+        "picture": "pics/chrlinnartz.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "aid": true,
+            "army": true,
+            "asylum": false,
+            "co2": false,
+            "data": false,
+            "eurobonds": true,
+            "minimum": false,
+            "tax": true,
+            "trains": false
+        },
+        "country": "germany",
+        "eu_party": "European People's Party",
+        "links": {
+            "facebook": "https://www.facebook.com/christophe.darley",
+            "twitter": "https://twitter.com/chris_darley"
+        },
+        "name": "Christophe Darley",
+        "party": "Christlich Demokratische Union Deutschlands",
+        "picture": "pics/chris_darley.jpeg",
+        "region": "Nordrhein-Westfalen"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "aid": true,
+            "army": true,
+            "asylum": false,
+            "co2": false,
+            "data": false,
+            "eurobonds": true,
+            "minimum": false,
+            "tax": true,
+            "trains": false
+        },
+        "country": "germany",
+        "eu_party": "European People's Party",
+        "links": {
+            "twitter": "https://twitter.com/ClaudiaHeber"
+        },
+        "name": "Claudia Heber",
+        "party": "Christlich Demokratische Union Deutschlands",
+        "picture": "pics/ClaudiaHeber.jpeg",
+        "region": "Th\u00fcringen"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "aid": true,
+            "army": true,
+            "asylum": false,
+            "co2": false,
+            "data": false,
+            "eurobonds": true,
+            "minimum": false,
+            "tax": true,
+            "trains": false
+        },
+        "country": "germany",
+        "eu_party": "European People's Party",
+        "links": {
+            "twitter": "https://twitter.com/caspary"
+        },
+        "name": "Daniel Caspary",
+        "party": "Christlich Demokratische Union Deutschlands",
+        "picture": "pics/caspary.jpg",
+        "region": "Baden-W\u00fcrttemberg"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "aid": true,
+            "army": true,
+            "asylum": false,
+            "co2": false,
+            "data": false,
+            "eurobonds": true,
+            "minimum": false,
+            "tax": true,
+            "trains": false
+        },
+        "country": "germany",
+        "eu_party": "European People's Party",
+        "links": {
+            "twitter": "https://twitter.com/DianaKaeding"
+        },
+        "name": "Diana K\u00e4ding",
+        "party": "Christlich-Soziale Union in Bayern e.V.",
+        "picture": "pics/DianaKaeding.jpeg",
+        "region": "Bayern"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "twitter": "https://www.facebook.com/ttps://twitter.com/imkeduplitzer"
+        },
+        "name": "Duplitzer Imke",
+        "party": "B\u00fcndnis 90/Die Gr\u00fcnen",
+        "picture": "pics/imkeduplitzer.jpg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/fabiennevesper",
+            "twitter": "https://twitter.com/fabievesper"
+        },
+        "name": "Fabienne Vesper",
+        "party": "Sozialdemokratische Partei Deutschlands",
+        "picture": "pics/fabievesper.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "asylum": true,
+            "co2": false,
+            "data": true,
+            "minimum": true,
+            "tax": true
+        },
+        "country": "germany",
+        "eu_party": "European United Left/Nordic Green Left",
+        "links": {
+            "facebook": "https://www.facebook.com/gabi.zimmer.3",
+            "twitter": "https://twitter.com/GabiZimmerMEP"
+        },
+        "name": "Gabi Zimmer",
+        "party": "DIE LINKE.",
+        "picture": "pics/GabiZimmerMEP.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://www.facebook.com/strategienundinhalte",
+            "twitter": "https://twitter.com/HassoMansfeld"
+        },
+        "name": "Hasso Mansfeld",
+        "party": "Freie Demokratische Partei",
+        "picture": "pics/HassoMansfeld.jpg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/helga.truepel",
+            "twitter": "http://www.twitter.com/helgatruepel"
+        },
+        "name": "Helga Tr\u00fcpel",
+        "party": "B\u00fcndnis 90/Die Gr\u00fcnen",
+        "picture": "pics/helgatruepel.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "aid": true,
+            "army": true,
+            "asylum": false,
+            "co2": false,
+            "data": false,
+            "eurobonds": true,
+            "minimum": false,
+            "tax": true,
+            "trains": false
+        },
+        "country": "germany",
+        "eu_party": "European People's Party",
+        "links": {
+            "facebook": "https://www.facebook.com/HerbertReul",
+            "twitter": "https://twitter.com/hreul"
+        },
+        "name": "Herbert Reul",
+        "party": "Christlich Demokratische Union Deutschlands",
+        "picture": "pics/hreul.jpg",
+        "region": "Nordrhein-Westfalen"
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "aid": true,
+            "army": true,
+            "asylum": false,
+            "co2": false,
+            "data": false,
+            "eurobonds": true,
+            "minimum": false,
+            "tax": true,
+            "trains": false
+        },
+        "country": "germany",
+        "eu_party": "European People's Party",
+        "links": {
+            "facebook": "https://www.facebook.com/inge.graessle",
+            "twitter": "https://twitter.com/inge_graessle"
+        },
+        "name": "Ingeborg Gr\u00e4\u00dfle",
+        "party": "Christlich Demokratische Union Deutschlands",
+        "picture": "pics/inge_graessle.jpg",
+        "region": "Baden-W\u00fcrttemberg"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/janphilippalbrecht",
+            "twitter": "https://twitter.com/janalbrecht"
+        },
+        "name": "Jan Philipp Albrecht",
+        "party": "B\u00fcndnis 90/Die Gr\u00fcnen",
+        "picture": "pics/janalbrecht.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "twitter": "http://www.twitter.com/j_bartelt"
+        },
+        "name": "Jennifer Bartelt",
+        "party": "B\u00fcndnis 90/Die Gr\u00fcnen",
+        "picture": "pics/j_bartelt.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "asylum": true,
+            "co2": false,
+            "data": true,
+            "minimum": true,
+            "tax": true
+        },
+        "country": "germany",
+        "eu_party": "European United Left/Nordic Green Left",
+        "links": {
+            "facebook": "https://www.facebook.com/JenniferMichelleRath",
+            "twitter": "http://twitter.com/Jennifer_Rath"
+        },
+        "name": "Jennifer Michelle Rath",
+        "party": "DIE LINKE.",
+        "picture": "pics/Jennifer_Rath.png",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "aid": true,
+            "army": true,
+            "asylum": false,
+            "co2": false,
+            "data": false,
+            "eurobonds": true,
+            "minimum": false,
+            "tax": true,
+            "trains": false
+        },
+        "country": "germany",
+        "eu_party": "European People's Party",
+        "links": {
+            "twitter": "https://twitter.com/joachimzeller"
+        },
+        "name": "Joachim Zeller",
+        "party": "Christlich Demokratische Union Deutschlands",
+        "picture": "pics/joachimzeller.jpg",
+        "region": "Berlin"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/knut.fleckenstein",
+            "twitter": "https://twitter.com/knufleckenstein"
+        },
+        "name": "Knut Fleckenstein",
+        "party": "Sozialdemokratische Partei Deutschlands",
+        "picture": "pics/knufleckenstein.jpg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://www.facebook.com/konstantin.kuhle",
+            "twitter": "https://twitter.com/KonstantinKuhle"
+        },
+        "name": "Konstantin Kuhle",
+        "party": "Freie Demokratische Partei",
+        "picture": "pics/KonstantinKuhle.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://www.facebook.com/buhlert;",
+            "twitter": "https://twitter.com/magnus_buhlert"
+        },
+        "name": "Magnus Buhlert",
+        "party": "Freie Demokratische Partei",
+        "picture": "pics/magnus_buhlert.JPG",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/martin.hausling",
+            "twitter": "http://twitter.com/MartinHaeusling"
+        },
+        "name": "Martin H\u00e4usling",
+        "party": "B\u00fcndnis 90/Die Gr\u00fcnen",
+        "picture": "pics/MartinHaeusling.jpg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "asylum": true,
+            "co2": false,
+            "data": true,
+            "minimum": true,
+            "tax": true
+        },
+        "country": "germany",
+        "eu_party": "European United Left/Nordic Green Left",
+        "links": {
+            "facebook": "https://www.facebook.com/martinschirdewanberlin;",
+            "twitter": "https://twitter.com/schirdewan"
+        },
+        "name": "Martin Schirdewan",
+        "party": "DIE LINKE.",
+        "picture": "pics/schirdewan.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/groote.eu",
+            "twitter": "http://www.twitter.com/Groote"
+        },
+        "name": "Matthias Groote",
+        "party": "Sozialdemokratische Partei Deutschlands",
+        "picture": "pics/Groote.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/hindersmann.nils",
+            "twitter": "http://www.twitter.com/nhindersmann"
+        },
+        "name": "Nils Hindersmann",
+        "party": "Sozialdemokratische Partei Deutschlands",
+        "picture": "pics/nhindersmann.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/peter.alberts.12",
+            "twitter": "http://twitter.com/peteralberts"
+        },
+        "name": "Peter Alberts",
+        "party": "B\u00fcndnis 90/Die Gr\u00fcnen",
+        "picture": "pics/peteralberts.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/RebeccaHarmsMEP",
+            "twitter": "https://twitter.com/RebHarms"
+        },
+        "name": "Rebecca Harms",
+        "party": "B\u00fcndnis 90/Die Gr\u00fcnen",
+        "picture": "pics/RebHarms.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "aid": true,
+            "army": true,
+            "asylum": false,
+            "co2": false,
+            "data": false,
+            "eurobonds": true,
+            "minimum": false,
+            "tax": true,
+            "trains": false
+        },
+        "country": "germany",
+        "eu_party": "European People's Party",
+        "links": {
+            "twitter": "https://twitter.com/reimerboege"
+        },
+        "name": "Reimer B\u00f6ge",
+        "party": "Christlich Demokratische Union Deutschlands",
+        "picture": "pics/reimerboege.jpg",
+        "region": "Schleswig-Holstein"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://de-de.facebook.com/r.bueti",
+            "twitter": "https://twitter.com/bueti"
+        },
+        "name": "Reinhard B\u00fctikofer",
+        "party": "B\u00fcndnis 90/Die Gr\u00fcnen",
+        "picture": "pics/bueti.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": false,
+            "tax": false,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "Alliance of Liberals and Democrats for Europe",
+        "links": {
+            "facebook": "https://www.facebook.com/pages/Robert-Harrison-EU/215649708604785",
+            "twitter": "http://https://twitter.com/RobHarrison_EU"
+        },
+        "name": "Robert Harrison",
+        "party": "Freie Demokratische Partei",
+        "picture": "pics/RobHarrison_EU.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/SkaKellerMEP",
+            "twitter": "https://twitter.com/SkaKeller"
+        },
+        "name": "Ska Keller",
+        "party": "B\u00fcndnis 90/Die Gr\u00fcnen",
+        "picture": "pics/SkaKeller.png",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/sven.giegold",
+            "twitter": "https://twitter.com/sven_giegold"
+        },
+        "name": "Sven Giegold",
+        "party": "B\u00fcndnis 90/Die Gr\u00fcnen",
+        "picture": "pics/sven_giegold.jpg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "http://facebook.com/Sylvia.Yvonne.Kaufmann",
+            "twitter": "http://twitter.com/KaufmannSylvia"
+        },
+        "name": "Sylvia-Yvonne Kaufmann",
+        "party": "Sozialdemokratische Partei Deutschlands",
+        "picture": "pics/KaufmannSylvia.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/TerryReintkeIntoTheEuropeanParliament",
+            "twitter": "http://twitter.com/TerryReintke"
+        },
+        "name": "Terry Reintke",
+        "party": "B\u00fcndnis 90/Die Gr\u00fcnen",
+        "picture": "pics/TerryReintke.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "asylum": true,
+            "co2": false,
+            "data": true,
+            "minimum": true,
+            "tax": true
+        },
+        "country": "germany",
+        "eu_party": "European United Left/Nordic Green Left",
+        "links": {
+            "facebook": "https://www.facebook.com/thomas.handel.54",
+            "twitter": "https://twitter.com/thaendel"
+        },
+        "name": "Thomas H\u00e4ndel",
+        "party": "DIE LINKE.",
+        "picture": "pics/thaendel.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "aid": true,
+            "army": true,
+            "asylum": false,
+            "co2": false,
+            "data": false,
+            "eurobonds": true,
+            "minimum": false,
+            "tax": true,
+            "trains": false
+        },
+        "country": "germany",
+        "eu_party": "European People's Party",
+        "links": {
+            "twitter": "https://twitter.com/uli_b"
+        },
+        "name": "Ulrich Beul",
+        "party": "Christlich Demokratische Union Deutschlands",
+        "picture": "pics/uli_b.jpeg",
+        "region": "Nordrhein-Westfalen"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": true,
+            "asylum": true,
+            "co2": true,
+            "data": false,
+            "eurobonds": true,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "Progressive Alliance of Socialists and Democrats",
+        "links": {
+            "facebook": "https://www.facebook.com/ulrike.rodust",
+            "twitter": "https://twitter.com/UlrikeRodust"
+        },
+        "name": "Ulrike Rodust",
+        "party": "Sozialdemokratische Partei Deutschlands",
+        "picture": "pics/UlrikeRodust.jpeg",
+        "region": ""
+    },
+    {
+        "answers": {
+            "abortion": false,
+            "aid": true,
+            "army": true,
+            "asylum": false,
+            "co2": false,
+            "data": false,
+            "eurobonds": true,
+            "minimum": false,
+            "tax": true,
+            "trains": false
+        },
+        "country": "germany",
+        "eu_party": "European People's Party",
+        "links": {
+            "twitter": "https://twitter.com/valentinholzer"
+        },
+        "name": "Valentin Holzer",
+        "party": "Christlich Demokratische Union Deutschlands",
+        "picture": "pics/valentinholzer.jpg",
+        "region": "Saarland"
+    },
+    {
+        "answers": {
+            "abortion": true,
+            "aid": true,
+            "army": false,
+            "asylum": true,
+            "co2": true,
+            "data": true,
+            "eurobonds": false,
+            "minimum": true,
+            "tax": true,
+            "trains": true
+        },
+        "country": "germany",
+        "eu_party": "The Greens/European Free Alliance",
+        "links": {
+            "facebook": "https://www.facebook.com/WettachEuropa;",
+            "twitter": "https://twitter.com/wettach"
+        },
+        "name": "Wolfgang G. Wettach",
+        "party": "B\u00fcndnis 90/Die Gr\u00fcnen",
+        "picture": "pics/wettach.jpg",
+        "region": ""
+    }
+]
