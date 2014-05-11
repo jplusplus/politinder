@@ -46,7 +46,7 @@ class polinder.Navigation
 			.defer(d3.json, 'static/data/candidates.json')
 			.await(@renderPanels)
 		# put the first one as current slide
-		@currentSlide = @uis.slide_container.find(".slide:not(.template):not(.informations)").last()
+		@currentSlide = @uis.slide_container.find(".slide:not(.template):not(.informations):not(.about)").last()
 
 	renderPanels: (a, questions, candidates) =>
 		@questions  = questions
@@ -86,7 +86,9 @@ class polinder.Navigation
 	# EVENTS HANDLER
 	nextSlide: (e, exit) =>
 		# laod a new slide if in tinder mode
-		@renderMatcher(1) if @currentSlide.hasClass("matcher")	
+		@renderMatcher(1) if @currentSlide.hasClass("matcher")
+		# remove about
+		@uis.about.remove() if @currentSlide.hasClass("start")	
 		# remove the previous slide, show the next one
 		# @currentSlide.remove()
 		if exit == "right"
@@ -95,7 +97,7 @@ class polinder.Navigation
 			@currentSlide.addClass("disapear")
 		setTimeout(=>
 			@currentSlide.remove()
-			@currentSlide = @uis.slide_container.find(".slide:not(.template):not(.informations)").last()
+			@currentSlide = @uis.slide_container.find(".slide:not(.template):not(.informations):not(.about)").last()
 		, 350)
 
 	onMatch: (e, candidate) =>
@@ -122,7 +124,7 @@ class polinder.Navigation
 				that.uis.informations.find("dl").html(body)
 				that.uis.informations.find(".illustration").css("background-image", "url(static/#{candidate.picture})")
 				that.uis.informations.removeClass("hidden")
-				# back button 
+				# back button
 				that.uis.informations.find("a").on "click", ->
 					that.uis.informations.addClass("hidden")
 
