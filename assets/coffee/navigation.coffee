@@ -60,7 +60,7 @@ class polinder.Navigation
 			panel = new polinder.Question(question, @polinder)
 			nuis_to_append.push(panel.getUi())
 		# add to view
-		@uis.question_intro.before(nuis_to_append)
+		@uis.question_intro.before(nuis_to_append.reverse())
 		@disableLoading()
 
 	renderMatcher: (count=3) =>
@@ -73,7 +73,7 @@ class polinder.Navigation
 			nuis_to_append.push(panel.getUi())
 			i += 1
 		# add to view
-		@uis.game_over.after(nuis_to_append)
+		@uis.game_over.after(nuis_to_append.reverse())
 
 	disableLoading: =>
 		$("body").removeClass("loading")
