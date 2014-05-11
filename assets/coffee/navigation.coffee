@@ -38,6 +38,7 @@ class polinder.Navigation
 			modal                  : $("#match-modal")
 			informations           : $(".informations")
 			about                  : $(".slide.about")
+			flash                  : $(".flash")
 		# FIXME: just for debug, to be removed
 		(console.warn("NAVIGATION :: @uis.#{key} is empty") unless nui.length > 0) for key, nui of @uis
 
@@ -51,6 +52,7 @@ class polinder.Navigation
 		@uis.start.find("h1").on("click", @openAbout)
 		$(document).on("nextSlide", @nextSlide)
 		$(document).on("onMatch"  , @onMatch)
+		$(document).on("onNoMatch"  , @onNoMatch)
 
 	init: =>
 		@polinder = new polinder.Polinder()
@@ -86,7 +88,6 @@ class polinder.Navigation
 			nuis_to_append.push(panel.getUi())
 			i += 1
 		# add to view
-		@showCandidateInfo(candidate)()
 		@uis.game_over.after(nuis_to_append.reverse())
 
 	disableLoading: =>
@@ -123,6 +124,16 @@ class polinder.Navigation
 		@uis.modal.find(".yes").on "click", =>
 			@showCandidateInfo(candidate)()
 			@uis.modal.modal("hide")
+
+	onNoMatch: (e, candidate) =>
+		@counterFlask = 0 unless @counterFlask?
+		@counterFlask++
+		if @counterFlask <= 3
+			clearTimeout(flash_delay)
+			@uis.flash.addClass("appear")
+			flash_delay = setTimeout(=>
+				@uis.flash.removeClass("appear")
+			, 2000)
 
 	showCandidateInfo: (candidate) =>
 		that = this
@@ -186,7 +197,6 @@ class polinder.Matcher extends polinder.Panel
 		@ui = polinder.Panel.TEMPLATE.clone().removeClass("template").addClass("actual matcher")
 		# feel the content
 		@ui.find(".name").html(candidate.quote)
-		@ui.find(".question").remove()
 		@ui.find(".illustration").css("background-image", "url(static/#{candidate.picture})")
 		super
 
@@ -195,6 +205,8 @@ class polinder.Matcher extends polinder.Panel
 			super("right")
 			if @polinder.isMatching(@candidate)
 				$(document).trigger("onMatch", [@candidate])
+			else
+				$(document).trigger("onNoMatch", [@candidate])
 			return
 		return super("left")
 
@@ -211,6 +223,6 @@ class polinder.Polinder
 			if candidate.answers[key]? and candidate.answers[key] == value
 				score += 1
 		base = Math.min(_.size(candidate.answers), _.size(@answers))
-		return score/base > .8
+		return score/base > .76
 
 # EOF
