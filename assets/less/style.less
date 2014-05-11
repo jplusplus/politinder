@@ -19,7 +19,12 @@ html, body {
 .container-fluid, .main-wrapper, .slide-container, .slide, .Landing-page{
 	height  : 100%;
 }
-.container-fluid {padding : 0;}
+.container-fluid {
+	padding : 0;
+}
+.row {
+	margin: 0;
+}
 
 h1, h2, h3, h4 {
 	font-family: 'Pacifico', cursive;
@@ -38,30 +43,44 @@ h1, h2, h3, h4 {
 		background-size: cover;
 	}
 	&.informations {
-		background-color: @PRIMARY_COLOR;
+		background-color: rgb(233, 233, 233);
 		text-align      : center;
-		color           : #fff;
+		color           : @TEXT_COLOR;
 		&, .wrapper {
 			height: 100%;
-			padding-bottom: 60px
-		}
-		.illustration, .informations {
-			margin-top   : 20px;
-		}
-		.illustration {
-			height : 100%;
-		}
-		.informations {
-			text-align: left;
-			dt {
-				font-size: 1.5em;
+			padding-bottom: 60px;
+
+			.title {
+				border-bottom: @PANEL_BORDER solid darken(@PANEL_COLOR, 10%);
+				padding: 10px;
+				background-color: @PANEL_COLOR;
+				color: #fff;
 			}
+
+			.information-wrapper {
+				padding-top: 15px;
+				height: 100%;
+
+			
+				.informations {
+					text-align: left;
+					padding: 10px;
+					dt {
+						font-size: 1.5em;
+					}
+				}
+			}
+
 		}
+		
 		.actions {
 			position : absolute;
 			bottom   : 0;
 			left     : 0;
 			right    : 0;
+			background-color: @PANEL_COLOR;
+			color: #fff;	
+			border-top: @PANEL_BORDER solid darken(@PANEL_COLOR, 10%);
 		}
 	}
 

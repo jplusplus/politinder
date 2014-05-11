@@ -123,7 +123,7 @@ class polinder.Navigation
 				for key, value of fields
 					body += "<dt>#{value}</dt><dd>#{candidate[key]}</dd>" if candidate[key]? and candidate[key] != ""
 				that.uis.informations.find("dl").html(body)
-				that.uis.informations.find(".illustration").css("background-image", "url(static/#{candidate.picture})")
+				that.uis.informations.find(".illustration img").attr("src", "static/#{candidate.picture}")
 				that.uis.informations.removeClass("hidden")
 				# back button
 				that.uis.informations.find("a").on "click", ->
