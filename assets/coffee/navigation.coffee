@@ -14,6 +14,19 @@ window.polinder = {} unless window.polinder?
 
 class polinder.Navigation
 
+	@LOGOS =
+		"Alliance of Liberals and Democrats for Europe"    : "alde.png",
+		"European People's Party"                          : "epp.png"
+		"The Greens/European Free Alliance"                : "green.png"
+		"Progressive Alliance of Socialists and Democrats" : "sd.jpg"
+		"European Conservatives and Reformists"            : "ecr.png"
+		"European United Left/Nordic Green Left"           : "gue.png"
+	
+	@FIELDS_TO_SHOW = 
+		country : "country"
+		region  : "region"
+		party   : "party"
+
 	constructor: ->
 		@uis =
 			info_pages             : $(".info-page")
@@ -73,6 +86,7 @@ class polinder.Navigation
 			nuis_to_append.push(panel.getUi())
 			i += 1
 		# add to view
+		@showCandidateInfo(candidate)()
 		@uis.game_over.after(nuis_to_append.reverse())
 
 	disableLoading: =>
@@ -115,13 +129,13 @@ class polinder.Navigation
 		if candidate
 			return ->
 				body = ""
-				fields = 
-					name : "name"
-					country : "country"
-					region : "region"
-					party : "party"
-				for key, value of fields
+				# name
+				body += "<dt></dt><dd>#{candidate.name}</dd>"
+				# generic fields
+				for key, value of polinder.Navigation.FIELDS_TO_SHOW
 					body += "<dt>#{value}</dt><dd>#{candidate[key]}</dd>" if candidate[key]? and candidate[key] != ""
+				# EU group picture
+				body += "<dt>EU group</dt><dd><img src=\"static/logos/#{polinder.Navigation.LOGOS[candidate.eu_party]}\"/></dd>"if polinder.Navigation.LOGOS[candidate.eu_party]?
 				that.uis.informations.find("dl").html(body)
 				that.uis.informations.find(".illustration img").attr("src", "static/#{candidate.picture}")
 				that.uis.informations.removeClass("hidden")
