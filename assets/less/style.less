@@ -138,9 +138,15 @@ h1, h2, h3, h4 {
 	&.Panel {
 		&.disapear {
 			-webkit-animation: rotateOutDownLeft .35s linear;
+			-moz-animation: rotateOutDownLeft .35s linear;
+			-ms-animation: rotateOutDownLeft .35s linear;
+			animation: rotateOutDownLeft .35s linear;
 		}
 		&.disapear--right  {
 			-webkit-animation: rotateOutDownRight .35s linear;
+			-moz-animation: rotateOutDownRight .35s linear;
+			-ms-animation: rotateOutDownRight .35s linear;
+			animation: rotateOutDownRight .35s linear;
 		}
 		.wrapper {
 			background-color : @PANEL_COLOR;
@@ -292,31 +298,63 @@ body {
 
 body.loading {opacity: 0;}
 
-@-webkit-keyframes rotateOutDownLeft {
+@-webkit-keyframes rotateOutDownLeft {.mixin-rotateOutDownLeft;}
+@-moz-keyframes    rotateOutDownLeft {.mixin-rotateOutDownLeft;}
+@-ms-keyframes     rotateOutDownLeft {.mixin-rotateOutDownLeft;}
+@keyframes         rotateOutDownLeft {.mixin-rotateOutDownLeft;}
+.mixin-rotateOutDownLeft() {
   0% {
-    -webkit-transform-origin: left bottom;
-    -webkit-transform: rotate(0deg);
-    opacity: 1;
+    -webkit-transform-origin : left bottom;
+    -moz-transform-origin    : left bottom;
+    -ms-transform-origin     : left bottom;
+    transform-origin         : left bottom;
+    -webkit-transform        : rotate(0deg);
+    -moz-transform           : rotate(0deg);
+    -ms-transform            : rotate(0deg);
+    transform                : rotate(0deg);
+    opacity                  : 1;
   }
 
   100% {
-    -webkit-transform-origin: left bottom;
-    -webkit-transform: rotate(-90deg);
-    opacity: 0;
+    -webkit-transform-origin : left bottom;
+    -moz-transform-origin    : left bottom;
+    -ms-transform-origin     : left bottom;
+    transform-origin         : left bottom;
+    -webkit-transform        : rotate(-90deg);
+    -moz-transform           : rotate(-90deg);
+    -ms-transform            : rotate(-90deg);
+    transform                : rotate(-90deg);
+    opacity                  : 0;
   }
 }
 
-@-webkit-keyframes rotateOutDownRight {
+@-webkit-keyframes rotateOutDownRight {.mixin-rotateOutDownRight;}
+@-moz-keyframes    rotateOutDownRight {.mixin-rotateOutDownRight;}
+@-ms-keyframes     rotateOutDownRight {.mixin-rotateOutDownRight;}
+@keyframes         rotateOutDownRight {.mixin-rotateOutDownRight;}
+.mixin-rotateOutDownRight() {
   0% {
-    -webkit-transform-origin: right bottom;
-    -webkit-transform: rotate(0deg);
-    opacity: 1;
+    -webkit-transform-origin : right bottom;
+    -moz-transform-origin    : right bottom;
+    -ms-transform-origin     : right bottom;
+    transform-origin         : right bottom;
+    -webkit-transform        : rotate(0deg);
+    -moz-transform           : rotate(0deg);
+    -ms-transform            : rotate(0deg);
+    transform                : rotate(0deg);
+    opacity                  : 1;
   }
 
   100% {
-    -webkit-transform-origin: right bottom;
-    -webkit-transform: rotate(90deg);
-    opacity: 0;
+    -webkit-transform-origin : right bottom;
+    -moz-transform-origin    : right bottom;
+    -ms-transform-origin     : right bottom;
+    transform-origin         : right bottom;
+    -webkit-transform        : rotate(90deg);
+    -moz-transform           : rotate(90deg);
+    -ms-transform            : rotate(90deg);
+    transform                : rotate(90deg);
+    opacity                  : 0;
   }
 }
 
