@@ -27,22 +27,12 @@ h1, h2, h3, h4 {
 	color: @HEADING_COLOR;
 }
 
-@keyframes rotateOutDownLeft {
-  from {
-    -webkit-transform-origin: left bottom;
-    -webkit-transform: rotate(0);
-    opacity: 1;
-  }
-
-  to {
-    -webkit-transform-origin: left bottom;
-    -webkit-transform: rotate(90deg);
-    opacity: 0;
-  }
-}
-
 .slide {
-	-webkit-animation: rotateOutDownLeft 2s linear infinite 2s;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 	.illustration {
 		background-position: center;
 		background-size: cover;
@@ -107,6 +97,12 @@ h1, h2, h3, h4 {
 		}	
 	}
 	&.Panel {
+		&.disapear {
+			-webkit-animation: rotateOutDownLeft .35s linear;
+		}
+		&.disapear--right  {
+			-webkit-animation: rotateOutDownRight .35s linear;
+		}
 		.wrapper {
 			background-color : @PANEL_COLOR;
 			padding-bottom   : @PANEL_HEIGHT_ACTIONS;
@@ -184,6 +180,35 @@ h1, h2, h3, h4 {
 	.modal-footer {
 		border: 0;
 	}
+}
+
+
+@-webkit-keyframes rotateOutDownLeft {
+  0% {
+    -webkit-transform-origin: left bottom;
+    -webkit-transform: rotate(0deg);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform-origin: left bottom;
+    -webkit-transform: rotate(-90deg);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes rotateOutDownRight {
+  0% {
+    -webkit-transform-origin: right bottom;
+    -webkit-transform: rotate(0deg);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform-origin: right bottom;
+    -webkit-transform: rotate(90deg);
+    opacity: 0;
+  }
 }
 
 // EOF

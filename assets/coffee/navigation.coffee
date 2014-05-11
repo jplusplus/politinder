@@ -42,7 +42,7 @@ class polinder.Navigation
 			.defer(d3.json, 'static/data/candidates.json')
 			.await(@renderPanels)
 		# put the first one as current slide
-		@currentSlide = @uis.slide_container.find(".slide:not(.template):not(.informations)").first()
+		@currentSlide = @uis.slide_container.find(".slide:not(.template):not(.informations)").last()
 
 	renderPanels: (a, questions, candidates) =>
 		@questions  = questions[...3]
@@ -56,7 +56,7 @@ class polinder.Navigation
 			panel = new polinder.Question(question, @polinder)
 			nuis_to_append.push(panel.getUi())
 		# add to view
-		@uis.question_intro.after(nuis_to_append)
+		@uis.question_intro.before(nuis_to_append)
 
 	renderMatcher: (count=3) =>
 		nuis_to_append = []
@@ -68,16 +68,23 @@ class polinder.Navigation
 			nuis_to_append.push(panel.getUi())
 			i += 1
 		# add to view
-		@uis.game_over.before(nuis_to_append)
+		@uis.game_over.after(nuis_to_append)
 
 	# -----------------------------------------------------------------------------
 	# EVENTS HANDLER
-	nextSlide: =>
+	nextSlide: (e, exit) =>
 		# laod a new slide if in tinder mode
 		@renderMatcher(1) if @currentSlide.hasClass("matcher")	
 		# remove the previous slide, show the next one
-		@currentSlide.remove()
-		@currentSlide = @uis.slide_container.find(".slide:not(.template):not(.informations)").first()
+		# @currentSlide.remove()
+		if exit == "right"
+			@currentSlide.addClass("disapear--right") 
+		else
+			@currentSlide.addClass("disapear")
+		setTimeout(=>
+			@currentSlide.remove()
+			@currentSlide = @uis.slide_container.find(".slide:not(.template):not(.informations)").last()
+		, 350)
 
 	onMatch: (e, candidate) =>
 		# show the modal view, connect the button
@@ -107,13 +114,12 @@ class polinder.Navigation
 				that.uis.informations.find("a").on "click", ->
 					that.uis.informations.addClass("hidden")
 
-
 class polinder.Panel
 	@TEMPLATE = $(".Panel.template")
 	constructor: ->
 		# bind events
 		@ui.find("a.btn").on "click", @onUserChoice
-	onUserChoice: => $(document).trigger("nextSlide")
+	onUserChoice: (exit="left") => $(document).trigger("nextSlide", [exit])
 	getUi       : => return @ui
 	hide        : =>
 		@ui.css("top")
@@ -134,7 +140,7 @@ class polinder.Question extends polinder.Panel
 	onUserChoice: (e) =>
 		# save the answer
 		@polinder.setChoice(@question.slug, $(e.currentTarget).hasClass("yes"))
-		super
+		super("right" if $(e.currentTarget).hasClass("yes"))
 
 class polinder.Matcher extends polinder.Panel
 
@@ -151,10 +157,12 @@ class polinder.Matcher extends polinder.Panel
 		super
 
 	onUserChoice: (e) =>
-		# save the answer
-		if @polinder.isMatching(@candidate)
-			$(document).trigger("onMatch", [@candidate])
-		super
+		if $(e.currentTarget).hasClass("yes")
+			super("right")
+			if @polinder.isMatching(@candidate)
+				$(document).trigger("onMatch", [@candidate])
+			return
+		return super("left")
 
 class polinder.Polinder
 	constructor: ->
