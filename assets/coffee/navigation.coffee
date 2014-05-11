@@ -18,20 +18,24 @@ class polinder.Navigation
 		@uis =
 			info_pages             : $(".info-page")
 			slide_container        : $(".slide-container")
+			start                  : $(".start")
 			question_intro         : $(".questions-intro")
 			matcher_intro          : $(".matcher-intro")
 			game_over              : $(".game-over")
 			modal                  : $("#match-modal")
 			informations           : $(".informations")
+			about                  : $(".slide.about")
 		# FIXME: just for debug, to be removed
 		(console.warn("NAVIGATION :: @uis.#{key} is empty") unless nui.length > 0) for key, nui of @uis
 
-		@currentSlide    = undefined
+		@currentSlide = undefined
 
 		@init()
 
 		# bind events
-		@uis.info_pages.find("a.btn").on("click", @nextSlide)
+		@uis.info_pages.find(".actions a.btn").on("click", @nextSlide)
+		@uis.about.find(".about a.btn").on("click", @openAbout)
+		@uis.start.find("h1").on("click", @openAbout)
 		$(document).on("nextSlide", @nextSlide)
 		$(document).on("onMatch"  , @onMatch)
 
@@ -57,6 +61,7 @@ class polinder.Navigation
 			nuis_to_append.push(panel.getUi())
 		# add to view
 		@uis.question_intro.before(nuis_to_append)
+		@disableLoading()
 
 	renderMatcher: (count=3) =>
 		nuis_to_append = []
@@ -69,6 +74,13 @@ class polinder.Navigation
 			i += 1
 		# add to view
 		@uis.game_over.after(nuis_to_append)
+
+	disableLoading: =>
+		$("body").removeClass("loading")
+
+	openAbout: =>
+		@uis.about.toggleClass("down")
+
 
 	# -----------------------------------------------------------------------------
 	# EVENTS HANDLER
@@ -114,6 +126,11 @@ class polinder.Navigation
 				that.uis.informations.find("a").on "click", ->
 					that.uis.informations.addClass("hidden")
 
+# -----------------------------------------------------------------------------
+#
+#    PANELS
+#
+# -----------------------------------------------------------------------------
 class polinder.Panel
 	@TEMPLATE = $(".Panel.template")
 	constructor: ->

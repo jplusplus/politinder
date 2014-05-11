@@ -66,10 +66,14 @@ h1, h2, h3, h4 {
 	}
 
 	&.info-page {
-		background-color : @PRIMARY_COLOR;
-		text-align       : center;
-		color            : #fff;
-		height           : 100%;
+		background-color    : @PRIMARY_COLOR;
+		text-align          : center;
+		color               : #fff;
+		height              : 100%;
+		opacity             : 1;
+		transition-property : opacity;
+		transition-duration : .30s;
+		&.disapear {opacity: 0;}
 		> .wrapper {
 			position: relative;
 			// center
@@ -94,7 +98,7 @@ h1, h2, h3, h4 {
 			.btn {
 				font-size: 1.3em;
 			}	
-		}	
+		}
 	}
 	&.Panel {
 		&.disapear {
@@ -160,6 +164,34 @@ h1, h2, h3, h4 {
 	}
 }
 
+.slide {
+	&.start {
+
+		h1 {cursor: pointer;}
+	}
+	&.about {
+		transition-property : top;
+		transition-duration : .25s;
+		top                 : 50%;
+		left                : 20px;
+		right               : 20px;
+		background-color    : #FAF2F2;
+		border-radius       : 10px;
+		padding             : 50px;
+		&.down {
+			top: 100%;
+		}
+		.about {
+			position: absolute;
+			top: -22px;
+			left: 0;
+			right: 0;
+			text-align: center;
+		}
+	}
+}
+
+
 .modal {
 	.modal-header {
 		border: 0;
@@ -179,6 +211,14 @@ h1, h2, h3, h4 {
 	}
 }
 
+body {
+	opacity: 1;
+	transition-property:opacity;
+	transition-duration: 1s;
+	transition-delay: 1s;
+}
+
+body.loading {opacity: 0;}
 
 @-webkit-keyframes rotateOutDownLeft {
   0% {
