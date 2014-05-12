@@ -43,7 +43,7 @@ PAGES = [
 	# "https://politicsforpeople.eu/greece/",
 	# "https://politicsforpeople.eu/belgium/",
 	# "https://politicsforpeople.eu/netherlands/",
-	"https://politicsforpeople.eu/germany/",
+	# "https://politicsforpeople.eu/germany/",
 	# "https://politicsforpeople.eu/denmark/",
 	# "https://politicsforpeople.eu/finland/",
 	# "https://politicsforpeople.eu/estonia/",
@@ -56,10 +56,10 @@ PAGES = [
 	# "https://politicsforpeople.eu/hungary/",
 	# "https://politicsforpeople.eu/slovenia/",
 	# "https://politicsforpeople.eu/croatia/",
-	# "https://politicsforpeople.eu/romania/",
-	# "https://politicsforpeople.eu/bulgaria/",
-	# "https://politicsforpeople.eu/malta/",
-	# "https://politicsforpeople.eu/cyprus/",
+	"https://politicsforpeople.eu/romania/",
+	"https://politicsforpeople.eu/bulgaria/",
+	"https://politicsforpeople.eu/malta/",
+	"https://politicsforpeople.eu/cyprus/",
 ]
 
 def getTwitterPic(link):

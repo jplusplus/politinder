@@ -7,8 +7,3 @@ fabfile.py
 static/.webassets-cache/
 static/gen/
 venv/
-scripts/clean.py
-
-assets/less/slide.less
-
-assets/less/slide.less
