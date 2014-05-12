@@ -12,6 +12,8 @@ html, body {
 	width    : 100%;
 	overflow : hidden;
 	margin: 0;
+	background-color: white;
+
 }
 .template {
 	display: none;
@@ -21,6 +23,12 @@ html, body {
 }
 .container-fluid {
 	padding : 0;
+}
+.container {
+	height: 100%;
+	position: relative;
+	max-width: 800px;
+	padding:0;
 }
 .row {
 	margin: 0;
@@ -48,7 +56,6 @@ h1, h2, h3, h4 {
 		color           : @TEXT_COLOR;
 		&, .wrapper {
 			height: 100%;
-			padding-bottom: 60px;
 
 			.title {
 				border-bottom: @PANEL_BORDER solid darken(@PANEL_COLOR, 10%);
@@ -90,10 +97,6 @@ h1, h2, h3, h4 {
 			bottom   : 0;
 			left     : 0;
 			right    : 0;
-			background-color: @PANEL_COLOR;
-			color: #fff;	
-			border-top: @PANEL_BORDER solid darken(@PANEL_COLOR, 10%);
-
 			.btn {
 				font-size: 1.5em;
 			}
@@ -136,6 +139,7 @@ h1, h2, h3, h4 {
 		}
 	}
 	&.Panel {
+		background-color: whitesmoke;
 		&.disapear {
 			-webkit-animation: rotateOutDownLeft .35s linear;
 			-moz-animation: rotateOutDownLeft .35s linear;
@@ -219,6 +223,7 @@ h1, h2, h3, h4 {
 		background-color    : #FAF2F2;
 		border-radius       : 10px;
 		padding             : 20px;
+		z-index             : 11;
 		&.down {
 			top: 100%;
 			> .wrapper {height: 0}

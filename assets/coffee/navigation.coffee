@@ -30,7 +30,7 @@ class polinder.Navigation
 	constructor: ->
 		@uis =
 			info_pages             : $(".info-page")
-			slide_container        : $(".slide-container")
+			slide_container        : $(".container-fluid")
 			start                  : $(".start")
 			question_intro         : $(".questions-intro")
 			matcher_intro          : $(".matcher-intro")
@@ -110,9 +110,12 @@ class polinder.Navigation
 			@currentSlide.addClass("disapear--right") 
 		else
 			@currentSlide.addClass("disapear")
+		last_slide = @currentSlide
+		# new slide
+		@currentSlide = @currentSlide.prev()
+		# remove previous
 		setTimeout(=>
-			@currentSlide.remove()
-			@currentSlide = @uis.slide_container.find(".slide:not(.template):not(.informations):not(.about)").last()
+			last_slide.remove()
 		, 350)
 
 	onMatch: (e, candidate) =>
