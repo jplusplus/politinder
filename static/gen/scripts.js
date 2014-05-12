@@ -1375,7 +1375,7 @@ polinder.Navigation = (function() {
     var key, nui, _ref;
     this.uis = {
       info_pages: $(".info-page"),
-      slide_container: $(".slide-container"),
+      slide_container: $(".container-fluid"),
       start: $(".start"),
       question_intro: $(".questions-intro"),
       matcher_intro: $(".matcher-intro"),
@@ -1453,6 +1453,7 @@ polinder.Navigation = (function() {
   };
 
   Navigation.prototype.nextSlide = function(e, exit) {
+    var last_slide;
     if (this.currentSlide.hasClass("matcher")) {
       this.renderMatcher(1);
     }
@@ -1464,10 +1465,11 @@ polinder.Navigation = (function() {
     } else {
       this.currentSlide.addClass("disapear");
     }
+    last_slide = this.currentSlide;
+    this.currentSlide = this.currentSlide.prev();
     return setTimeout((function(_this) {
       return function() {
-        _this.currentSlide.remove();
-        return _this.currentSlide = _this.uis.slide_container.find(".slide:not(.template):not(.informations):not(.about)").last();
+        return last_slide.remove();
       };
     })(this), 350);
   };

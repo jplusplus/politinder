@@ -11,6 +11,7 @@ body {
   width: 100%;
   overflow: hidden;
   margin: 0;
+  background-color: white;
 }
 .template {
   display: none;
@@ -23,6 +24,12 @@ body {
   height: 100%;
 }
 .container-fluid {
+  padding: 0;
+}
+.container {
+  height: 100%;
+  position: relative;
+  max-width: 800px;
   padding: 0;
 }
 .row {
@@ -55,7 +62,6 @@ h4 {
 .slide.informations,
 .slide.informations .wrapper {
   height: 100%;
-  padding-bottom: 60px;
 }
 .slide.informations .title,
 .slide.informations .wrapper .title {
@@ -101,9 +107,6 @@ h4 {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #3b5e6f;
-  color: #fff;
-  border-top: 4px solid #29424e;
 }
 .slide.informations .actions .btn {
   font-size: 1.5em;
@@ -143,6 +146,9 @@ h4 {
 }
 .slide.info-page > .wrapper .btn {
   font-size: 1.3em;
+}
+.slide.Panel {
+  background-color: whitesmoke;
 }
 .slide.Panel.disapear {
   -webkit-animation: rotateOutDownLeft .35s linear;
@@ -217,6 +223,7 @@ h4 {
   background-color: #FAF2F2;
   border-radius: 10px;
   padding: 20px;
+  z-index: 11;
 }
 .slide.about.down {
   top: 100%;
