@@ -153,6 +153,7 @@ class polinder.Navigation
 				that.uis.informations.find("dl").html(body)
 				that.uis.informations.find(".illustration img").attr("src", "static/#{candidate.picture}")
 				that.uis.informations.removeClass("hidden")
+				that.uis.informations.find(".contact a").attr("href", candidate.links["twitter"])
 				# back button
 				that.uis.informations.find("a").on "click", ->
 					that.uis.informations.addClass("hidden")
