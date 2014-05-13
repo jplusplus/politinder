@@ -1441,6 +1441,7 @@ polinder.Navigation = (function() {
       nuis_to_append.push(panel.getUi());
       i += 1;
     }
+    this.showCandidateInfo(candidate)();
     return this.uis.game_over.after(nuis_to_append.reverse());
   };
 
@@ -1524,6 +1525,7 @@ polinder.Navigation = (function() {
         that.uis.informations.find("dl").html(body);
         that.uis.informations.find(".illustration img").attr("src", "static/" + candidate.picture);
         that.uis.informations.removeClass("hidden");
+        that.uis.informations.find(".contact a").attr("href", candidate.links["twitter"]);
         return that.uis.informations.find("a").on("click", function() {
           return that.uis.informations.addClass("hidden");
         });
