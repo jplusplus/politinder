@@ -1441,7 +1441,6 @@ polinder.Navigation = (function() {
       nuis_to_append.push(panel.getUi());
       i += 1;
     }
-    this.showCandidateInfo(candidate)();
     return this.uis.game_over.after(nuis_to_append.reverse());
   };
 
